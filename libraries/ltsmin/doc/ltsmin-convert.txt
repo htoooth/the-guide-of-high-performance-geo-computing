@@ -1,0 +1,59 @@
+//                           -*- mode: doc; outline-regexp: "==\(=*\) ." -*-
+ltsmin-convert(1)
+=================
+:Author:  Michael Weber
+:Email:   <michaelw@foldr.org>
+:Date:    2009-03-16
+
+== NAME
+
+ltsmin-convert - convert file formats for labelled transition system 
+
+== SYNOPSIS
+
+*ltsmin-convert* [OPTION]... 'input' 'output'
+
+== DESCRIPTION
+
+This tool copies 'input' to 'output' and changes the archive format
+on-the-fly.  Both input and output format are detected by pattern
+matching. See the File Formats section for details.
+
+== OPTIONS
+
+*--segments*::
+Set the number of segments in the output file.  If the output format
+does not support segmentation (BCG) then the default is 1 and
+specifying any number other than 1 is an error.  Otherwise, the
+default is the same number of segments as the input.  Please note that
+the algorithm used for changing the number of segments is simple.  It
+guarantees that the number of states in the output is balanced, but
+not much more.  E.g., if the input is in BFS order and just one
+segment then then the output will still be in BFS order.  However, if
+the input has more than one segment then BFS order is lost.
+
+include::inc/io-options.txt[]
+
+include::inc/general-options.txt[]
+
+include::inc/file-formats.txt[]
+
+== EXIT STATUS
+
+*0*::
+        Successful termination.
+*>0*::
+        Some error occurred.
+
+== SEE ALSO
+linkman:ltsmin[7], 
+linkman:lpo2lts-grey[1],
+linkman:lps2lts-grey[1],
+linkman:nips2lts-grey[1],
+linkman:lpo2lts-mpi[1],
+linkman:lps2lts-mpi[1],
+linkman:nips2lts-mpi[1],
+linkman:ltsmin-convert[1],
+http://www.inrialpes.fr/vasy/cadp/[CADP],
+http://www.inrialpes.fr/vasy/cadp/man/bcg.html[BCG]
+
