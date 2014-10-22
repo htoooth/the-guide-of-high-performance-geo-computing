@@ -8,11 +8,10 @@
 
 
 ## 自己的库想法
-目前有三种想法：
+目前有四种想法：
 
-* 基于actor的
-* 基结channel的
+* 基于scala的actor
+* 基结go的channel
 * 基于react的，也就是基于事件
-
-* 中间还可以有脚本的编写，融合lua或者newlisp。
+* 嵌入脚本，融合lua或者newlisp。
 
