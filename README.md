@@ -53,6 +53,12 @@ akka的学习
 
 ### [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)
 
+
+ ## 一些c++ 文章
+ 
+ * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
+ 
+
 ## 自己的库想法
 目前有四种想法：
 
