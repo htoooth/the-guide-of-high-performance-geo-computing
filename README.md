@@ -47,6 +47,12 @@ Easy Concurrency for C++.
 ### [Akka](http://www.iteblog.com/archives/1156)
 akka的学习
 
+## 消息库
+
+### [nanomsg](https://github.com/nanomsg)
+
+### [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)
+
 ## 自己的库想法
 目前有四种想法：
 
