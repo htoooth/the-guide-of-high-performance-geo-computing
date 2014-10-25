@@ -64,11 +64,21 @@ akka的学习
 
 ### [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)
 
+## 日志库
+
+### [zlog](http://hardysimpson.github.io/zlog/)
+
 ## 一些c++ 文章
  
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
 * [C++ resources](https://cpp.zeef.com/faraz.fallahi)
 * [并发与并行](http://www.blogjava.net/killme2008/archive/2010/03/23/316273.html)
+* [熟悉GO了解它的并发](https://www.zybuluo.com/Gestapo/note/32082)
+* [编译器](http://mikespook.com/2014/05/%E7%BF%BB%E8%AF%91%E7%BC%96%E8%AF%91%E5%99%A81-%E4%BD%BF%E7%94%A8-go-%E5%BC%80%E5%8F%91%E7%BC%96%E8%AF%91%E5%99%A8%E7%9A%84%E4%BB%8B%E7%BB%8D/)
+* [c hard way](http://c.learncodethehardway.org/book/)
+* [ruby hard way](http://lrthw.github.io/ex01/)
+* [glog使用](http://www.outsky.org/article.php?id=12)
+
 
 ## 自己的库想法
 目前有四种想法：
