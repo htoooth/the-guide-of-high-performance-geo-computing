@@ -67,8 +67,9 @@ akka的学习
 
  ## 一些c++ 文章
  
- * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
- * [C++ resources](https://cpp.zeef.com/faraz.fallahi)
+* [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
+* [C++ resources](https://cpp.zeef.com/faraz.fallahi)
+* [并发与并行](http://www.blogjava.net/killme2008/archive/2010/03/23/316273.html)
 
 ## 自己的库想法
 目前有四种想法：
