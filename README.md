@@ -30,7 +30,19 @@ An implementation of the actor model for C++.
 ### [libactor](https://code.google.com/p/libactor/)
 Actor Model Library for C.
 
+### [Channel](http://channel.sourceforge.net/)
+Name Space Based C++ Framework For Asynchronous, Distributed Message Passing and Event Dispatching.
 
+### [Go-style Channel in C++](http://st.xorian.net/blog/2012/08/go-style-channel-in-c/)
+
+### [C++CSP2](http://www.cs.kent.ac.uk/projects/ofa/c++csp/)
+Easy Concurrency for C++.
+
+### [concurrencykit](https://github.com/concurrencykit/ck)
+
+### [libconcurrency](https://code.google.com/p/libconcurrency/)
+
+### [libtask](http://swtch.com/libtask/)
 
 ## 自己的库想法
 目前有四种想法：
