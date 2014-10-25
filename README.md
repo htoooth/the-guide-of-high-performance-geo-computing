@@ -44,6 +44,9 @@ Easy Concurrency for C++.
 
 ### [libtask](http://swtch.com/libtask/)
 
+### [Akka](http://www.iteblog.com/archives/1156)
+akka的学习
+
 ## 自己的库想法
 目前有四种想法：
 
