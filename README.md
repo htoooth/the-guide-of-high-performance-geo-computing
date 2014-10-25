@@ -56,6 +56,8 @@ akka的学习
 ### [mapreduce c++](http://craighenderson.co.uk/papers/software_scalability_mapreduce/library)
 
 
+### [jansson](http://www.digip.org/jansson/)
+
 ## 消息库
 
 ### [nanomsg](https://github.com/nanomsg)
