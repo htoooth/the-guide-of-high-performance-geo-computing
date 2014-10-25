@@ -4,7 +4,32 @@
 ## 库的学习说明
 
 ### ltsmin 学习
-该库中有一个有关mpi的事件机制的循环，可以学习。
+该库在`libraries`，中有一个有关mpi的事件机制的循环，可以学习。
+
+### [casablance](http://casablanca.codeplex.com/)
+该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
+
+### [theron](http://www.theron-library.com/index.php)
+该库有设计并行的实现
+
+### [caf](http://actor-framework.org/)
+该库有设计actor的实现
+
+### [actorlite](http://www.cnblogs.com/JeffreyZhao/archive/2009/05/11/a-simple-actor-model-implementation.html)
+老赵的博客中有讲actor的设计，可以借签。
+
+### [libprocess](https://github.com/3rdparty/libprocess)
+process之间的actor风格的库
+
+### [SObjectizer](http://sourceforge.net/projects/sobjectizer/)
+he SObjectizer is a framework for agent-oriented programming in C++.
+
+### [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout)
+An implementation of the actor model for C++.
+
+### [libactor](https://code.google.com/p/libactor/)
+Actor Model Library for C.
+
 
 
 ## 自己的库想法
