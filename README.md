@@ -47,6 +47,15 @@ Easy Concurrency for C++.
 ### [Akka](http://www.iteblog.com/archives/1156)
 akka的学习
 
+### [libcoro](http://software.schmorp.de/pkg/libcoro.html)
+一个并发库
+
+### [libev](http://software.schmorp.de/pkg/libev.html)
+一个事件库
+
+### [mapreduce c++](http://craighenderson.co.uk/papers/software_scalability_mapreduce/library)
+
+
 ## 消息库
 
 ### [nanomsg](https://github.com/nanomsg)
