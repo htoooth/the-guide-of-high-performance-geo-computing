@@ -9,6 +9,9 @@
 ### [casablance](http://casablanca.codeplex.com/)
 该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 
+### [Ray](https://github.com/sebhtml/RayPlatform)
+mpi为基础的库
+
 ### [theron](http://www.theron-library.com/index.php)
 该库有设计并行的实现
 
