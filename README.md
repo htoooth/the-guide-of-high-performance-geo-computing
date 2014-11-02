@@ -72,19 +72,16 @@ java akka的actor学习
 
 ### [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)
 
-## 日志库
-
-### [zlog](http://hardysimpson.github.io/zlog/)
-
 ## 工具类库
+* [zlog](http://hardysimpson.github.io/zlog/)，日志类库
 * [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
 * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
 * [tap](https://github.com/zorgnax/libtap)，测试类库
-* [Ylib](https://github.com/Amaury/Ylib)
+* [Ylib](https://github.com/Amaury/Ylib)，常用类库
 * [acl](https://github.com/zhengshuxin/acl)，一个类库
+* [cheat](https://github.com/Tuplanolla/cheat),测试类库
 
 ## 一些c++ 文章
- 
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
 * [C++ resources](https://cpp.zeef.com/faraz.fallahi)
 * [并发与并行](http://www.blogjava.net/killme2008/archive/2010/03/23/316273.html)
