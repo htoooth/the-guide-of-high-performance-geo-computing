@@ -68,10 +68,11 @@ java akka的actor学习
 
 ### [mapreduce c++](http://craighenderson.co.uk/papers/software_scalability_mapreduce/library)
 
-### [jansson](http://www.digip.org/jansson/)
-
 ### [skynet](https://github.com/cloudwu/skynet)
-风云的博客中有一个关于工业的使用，多进程和多线程，还有嵌入式脚本
+风云的博客中有一个关于工业级的使用，多进程和多线程，还有嵌入式脚本，博客的内容在[这里](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)。
+
+###  [fibjs](https://github.com/xicilion/fibjs)
+其中有多个类库，可以学习
 
 ## 工具类库
 * [nanomsg](https://github.com/nanomsg)，消息类库
