@@ -10,15 +10,12 @@
 
 * [casablance](http://casablanca.codeplex.com/)，该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 
-* [Ray](https://github.com/sebhtml/RayPlatform)，mpi为基础的库
+* [Ray](https://github.com/sebhtml/RayPlatform)，mpi为基础的并行计算库
 
 * [theron](http://www.theron-library.com/index.php)
 该库有设计并行的实现
 
 * [caf](http://actor-framework.org/),该库有设计actor的实现
-
-* [actorlite](http://www.cnblogs.com/JeffreyZhao/archive/2009/05/11/a-simple-actor-model-implementation.html)
-老赵的博客中有讲actor的设计，可以借签。
 
 * [libprocess](https://github.com/3rdparty/libprocess)
 process之间的actor风格的库
@@ -81,6 +78,7 @@ Easy Concurrency for C++.
 * [mingw-常用库](http://nuwen.net/mingw.html)
 
 ### 一些c++文章
+* [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
 * [C++ resources](https://cpp.zeef.com/faraz.fallahi)
 * [并发与并行](http://www.blogjava.net/killme2008/archive/2010/03/23/316273.html)
@@ -92,6 +90,8 @@ Easy Concurrency for C++.
 * [Akka学习](http://www.iteblog.com/archives/1156)
 java akka的actor学习
 * [Go-style Channel in C++](http://st.xorian.net/blog/2012/08/go-style-channel-in-c/)
+* [actorlite](http://www.cnblogs.com/JeffreyZhao/archive/2009/05/11/a-simple-actor-model-implementation.html)
+老赵的博客中有讲actor的设计，可以借签。
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
@@ -120,6 +120,7 @@ java akka的actor学习
 * [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
 
 ## 第三部分 高性能地理计算
+目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
 
 ## 第四部分 其他
 
