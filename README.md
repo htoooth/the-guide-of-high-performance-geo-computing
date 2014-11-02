@@ -45,7 +45,12 @@ Easy Concurrency for C++.
 ### [libtask](http://swtch.com/libtask/)
 
 ### [Akka](http://www.iteblog.com/archives/1156)
-akka的学习
+java akka的actor学习
+
+### [state-threads](https://github.com/winlinvip/state-threads)
+线程级的库实现
+
+
 
 ### [libcoro](http://software.schmorp.de/pkg/libcoro.html)
 一个并发库
