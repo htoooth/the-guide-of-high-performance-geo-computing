@@ -119,16 +119,18 @@ java akka的actor学习
 
 ## 第四部分 其他
 
-### 自己的库想法
-目前有四种想法：
-
+### 第一步，构建消息库
 * 构建一个可靠的消息队列库
 * 利用消息队列库，实现多进程的合作
+
+### 第二步，设计同步模式
 * 基于scala的actor
 * 基结go的channel
 * 基于react的，也就是基于事件
 * geaman队列系统
-* 嵌入脚本，融合lua或者newlisp。
+
+### 第三步，嵌入脚本语言
+* 嵌入脚本，融合python，ruby，lua或者newlisp。
 
 ## 打算要做的事
 * 将gdal中[port](https://github.com/OSGeo/gdal/tree/trunk/gdal/port)库提出来，专门做一个工具库类库。
