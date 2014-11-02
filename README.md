@@ -66,13 +66,13 @@ java akka的actor学习
 
 ### [jansson](http://www.digip.org/jansson/)
 
-## 消息库
-
-### [nanomsg](https://github.com/nanomsg)
-
-### [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)
-
 ## 工具类库
+* [nanomsg](https://github.com/nanomsg)，消息类库
+* [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
+* [protobuf](https://github.com/google/protobuf),谷歌，消息类库
+* [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代
+* [cereal](http://uscilab.github.io/cereal/index.html)，消息类库
+* [jansson](http://www.digip.org/jansson/)，json类库
 * [zlog](http://hardysimpson.github.io/zlog/)，日志类库
 * [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
 * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
