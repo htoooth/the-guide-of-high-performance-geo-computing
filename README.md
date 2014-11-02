@@ -96,10 +96,10 @@ java akka的actor学习
 
 
 ## 构建工具的选择
-* premake
-* gyp
-* scons
-* cmake
+* [premake](http://industriousone.com/premake)
+* [scons](http://www.scons.org/)
+* [gyp](https://code.google.com/p/gyp/)
+* [cmake](http://www.cmake.org/)
 
 ## 脚本绑定mpi
 * [ruby-mpi](https://github.com/seiya/ruby-mpi)
