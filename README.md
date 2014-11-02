@@ -50,7 +50,8 @@ java akka的actor学习
 ### [state-threads](https://github.com/winlinvip/state-threads)
 线程级的库实现
 
-
+### [chan](https://github.com/tylertreat/chan)
+纯c实现在channel库
 
 ### [libcoro](http://software.schmorp.de/pkg/libcoro.html)
 一个并发库
@@ -59,7 +60,6 @@ java akka的actor学习
 一个事件库
 
 ### [mapreduce c++](http://craighenderson.co.uk/papers/software_scalability_mapreduce/library)
-
 
 ### [jansson](http://www.digip.org/jansson/)
 
@@ -72,6 +72,11 @@ java akka的actor学习
 ## 日志库
 
 ### [zlog](http://hardysimpson.github.io/zlog/)
+
+## 工具类库
+* [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
+* [sundial](https://github.com/guiquanz/sundial)，常用数据结构
+* [tap](https://github.com/zorgnax/libtap)，测试类库
 
 ## 一些c++ 文章
  
