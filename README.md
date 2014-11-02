@@ -66,6 +66,9 @@ java akka的actor学习
 
 ### [jansson](http://www.digip.org/jansson/)
 
+### [skynet](https://github.com/cloudwu/skynet)
+风云的博客中有一个关于工业的使用，多进程和多线程，还有嵌入式脚本
+
 ## 工具类库
 * [nanomsg](https://github.com/nanomsg)，消息类库
 * [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
