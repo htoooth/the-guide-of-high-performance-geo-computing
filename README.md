@@ -132,4 +132,7 @@ java akka的actor学习
 * 嵌入脚本，融合lua或者newlisp。
 
 
-
+## 打算要做的事
+* 将gdal中[port](https://github.com/OSGeo/gdal/tree/trunk/gdal/port)库提出来，专门做一个工具库类库。
+* 将[readme.md](https://github.com/htoooth/libpcm)写完
+* 将[mpi-rpc](https://github.com/htoooth/hpgc_new/blob/master/src/rpc.cpp)再拿出来研究
