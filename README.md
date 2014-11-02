@@ -95,6 +95,12 @@ java akka的actor学习
 * [glog使用](http://www.outsky.org/article.php?id=12)
 
 
+## 构建工具的选择
+* premake
+* gyp
+* scons
+* cmake
+
 ## 自己的库想法
 目前有四种想法：
 
@@ -106,4 +112,6 @@ java akka的actor学习
 * 基于react的，也就是基于事件
 * geaman队列系统
 * 嵌入脚本，融合lua或者newlisp。
+
+
 
