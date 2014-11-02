@@ -12,28 +12,22 @@
 
 * [Ray](https://github.com/sebhtml/RayPlatform)，mpi为基础的并行计算库
 
-* [theron](http://www.theron-library.com/index.php)
-该库有设计并行的实现
+* [theron](http://www.theron-library.com/index.php),该库有设计并行的实现
 
 * [caf](http://actor-framework.org/),该库有设计actor的实现
 
-* [libprocess](https://github.com/3rdparty/libprocess)
+* [libprocess](https://github.com/3rdparty/libprocess),
 process之间的actor风格的库
 
-* [SObjectizer](http://sourceforge.net/projects/sobjectizer/)
-he SObjectizer is a framework for agent-oriented programming in C++.
+* [SObjectizer](http://sourceforge.net/projects/sobjectizer/),he SObjectizer is a framework for agent-oriented programming in C++.
 
-* [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout)
-An implementation of the actor model for C++.
+* [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout),An implementation of the actor model for C++.
 
-* [libactor](https://code.google.com/p/libactor/)
-Actor Model Library for C.
+* [libactor](https://code.google.com/p/libactor/),Actor Model Library for C.
 
-* [Channel](http://channel.sourceforge.net/)
-Name Space Based C++ Framework For Asynchronous, Distributed Message Passing and Event Dispatching.
+* [Channel](http://channel.sourceforge.net/),Name Space Based C++ Framework For Asynchronous, Distributed Message Passing and Event Dispatching.
 
-* [C++CSP2](http://www.cs.kent.ac.uk/projects/ofa/c++csp/)
-Easy Concurrency for C++.
+* [C++CSP2](http://www.cs.kent.ac.uk/projects/ofa/c++csp/),Easy Concurrency for C++.
 
 * [concurrencykit](https://github.com/concurrencykit/ck)
 
@@ -41,25 +35,24 @@ Easy Concurrency for C++.
 
 * [libtask](http://swtch.com/libtask/)
 
-* [state-threads](https://github.com/winlinvip/state-threads)
-线程级的库实现
+* [state-threads](https://github.com/winlinvip/state-threads)，线程级的库实现
 
-* [chan](https://github.com/tylertreat/chan)
-纯c实现在channel库
+* [chan](https://github.com/tylertreat/chan)，纯c实现在channel库
 
-* [libcoro](http://software.schmorp.de/pkg/libcoro.html)
-一个并发库
+* [libcoro](http://software.schmorp.de/pkg/libcoro.html)，一个并发库
 
-* [libev](http://software.schmorp.de/pkg/libev.html)
-一个事件库
+* [libev](http://software.schmorp.de/pkg/libev.html)，一个事件库
 
 * [mapreduce c++](http://craighenderson.co.uk/papers/software_scalability_mapreduce/library)
 
 * [skynet](https://github.com/cloudwu/skynet)
 风云的博客中有一个关于工业级的使用，多进程和多线程，还有嵌入式脚本，博客的内容在[这里](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)。
 
-* [fibjs](https://github.com/xicilion/fibjs)
-其中有多个类库，可以学习
+* [fibjs](https://github.com/xicilion/fibjs)，其中有多个类库，可以学习
+
+* [hpx](https://github.com/STEllAR-GROUP)，一个分布式计算框架，可以看看构架
+
+* [neu](https://github.com/andrometa/neu)，另一分布式计算框架，可以看看构架
 
 ### 工具类库
 * [nanomsg](https://github.com/nanomsg)，消息类库
@@ -76,6 +69,8 @@ Easy Concurrency for C++.
 * [acl](https://github.com/zhengshuxin/acl)，一个类库
 * [cheat](https://github.com/Tuplanolla/cheat),测试类库
 * [mingw-常用库](http://nuwen.net/mingw.html)
+* [boost](http://www.boost.org/)
+* [POCO](https://github.com/pocoproject)
 
 ### 一些c++文章
 * [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
