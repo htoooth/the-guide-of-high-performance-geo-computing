@@ -101,6 +101,20 @@ java akka的actor学习
 * scons
 * cmake
 
+## 脚本绑定mpi
+* [ruby-mpi](https://github.com/seiya/ruby-mpi)
+* [pybhon-mpi](http://mpi4py.scipy.org/)
+* [lua-mpi](https://github.com/jzrake/lua-mpi)
+* js-mpi , Null
+* [go-mpi](https://github.com/JohannWeging/go-mpi)
+
+## 脚本绑定gdal
+* python-gdal，GDAL中自带
+* [ruby-gdal](https://github.com/zhm/gdal-ruby)
+* lua-gdal,Null
+* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
+* [go-gdal](https://github.com/lukeroth/gdal)
+
 ## 自己的库想法
 目前有四种想法：
 
