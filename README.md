@@ -71,6 +71,7 @@ process之间的actor风格的库
 * [mingw-常用库](http://nuwen.net/mingw.html)
 * [boost](http://www.boost.org/)
 * [POCO](https://github.com/pocoproject)
+* 还有很多关于facebook和google开源的项目都可以学习
 
 ### 一些c++文章
 * [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
