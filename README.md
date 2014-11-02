@@ -80,6 +80,8 @@ java akka的actor学习
 * [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
 * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
 * [tap](https://github.com/zorgnax/libtap)，测试类库
+* [Ylib](https://github.com/Amaury/Ylib)
+* [acl](https://github.com/zhengshuxin/acl)，一个类库
 
 ## 一些c++ 文章
  
