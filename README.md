@@ -139,6 +139,16 @@ java akka的actor学习
 
 注：以上的内容摘自[基于MPI和MapReduce的分布并行计算研究](http://wenku.baidu.com/view/f9c29bd0360cba1aa811dabc.html?pn=50)，第24页
 
+### MPI的问题
+
+具体的说，MPI允许进程之间在任何时刻互相通信。如果一个进程挂了，我们确实可以请分布式操作系统重启之。但是如果要让这个“新生”获取它“前世”的状态，我们就需要让它从初始状态开始执行，接收到其前世曾经收到的所有消息。这就要求所有给“前世”发过消息的进程都被重启。而这些进程都需要接收到他们的“前世”接收到过的所有消息。这种数据依赖的结果就是：所有进程都得重启，那么这个job就得重头做。
+
+一个job哪怕只需要10分钟时间，但是这期间一个进程都不挂的概率很小。只要一个进程挂了，就得重启所有进程，那么这个job就永远也结束不了了。
+
+虽然我们很难让MPI框架做到fault recovery，我们可否让基于MPI的pLSA系统支持fault recovery呢？原则上是可以的——最简易的做法是checkpointing——时不常的把有所进程接收到过的所有消息写入一个分布式文件系统（比如GFS）。或者更直接一点：进程状态和job状态写入GFS。Checkpointing是下文要说到的Pregel框架实现fault recovery的基础。
+
+注：这段内容摘自[大数据的首要目标是“大”而不是“快”](http://cxwangyi.github.io/story/01_plsa_and_mpi.md.html)
+
 ####参考链接：
 * [What are some scenarios for which MPI is a better fit than MapReduce?](http://stackoverflow.com/questions/1530490/what-are-some-scenarios-for-which-mpi-is-a-better-fit-than-mapreduce)
 * [分布式计算概述](http://www.cnblogs.com/LeftNotEasy/archive/2010/11/27/1889598.html)
@@ -147,6 +157,8 @@ java akka的actor学习
 * [知乎：写分布式机器学习算法，哪种编程接口比较好？](http://www.zhihu.com/question/22544716)
 * [Is There Any Benchmarks Comparing C++ MPI with Spark](http://apache-spark-user-list.1001560.n3.nabble.com/Is-There-Any-Benchmarks-Comparing-C-MPI-with-Spark-td7661.html)
 * [在雲端運算環境使用R和MPI](http://rstudio-pubs-static.s3.amazonaws.com/11810_23d0429b0ae443e28f5392a3a1c9d073.html)
+
+## 我的任务
 
 ### 第一步，构建消息库
 * 构建一个可靠的消息队列库
