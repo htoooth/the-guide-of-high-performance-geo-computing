@@ -75,6 +75,7 @@ process之间的actor风格的库
 
 ### 一些c++文章
 * [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
+* [mpi相关练习](https://computing.llnl.gov/tutorials/mpi/exercise.html)
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
 * [C++ resources](https://cpp.zeef.com/faraz.fallahi)
 * [并发与并行](http://www.blogjava.net/killme2008/archive/2010/03/23/316273.html)
@@ -119,6 +120,32 @@ java akka的actor学习
 目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
 
 ## 第四部分 其他
+
+### MPI与Hadoop的区别和联系
+并行计算的代表性技术是MPI，云计算的代表性技术是Hadoop。云计算的基础是并行计算，是并行计算和网络结合而发展起来的。MPI和Hadoop代表了不同背影开发者和学术的不同观点。所以MPI和Hadoop有很大的关系，既有共同点也有很多不同之处。
+
+两者的相同点如下：
+两者都是使用多个节点进行并行计算，协作完成一个任务；都可以在专用的并行机和廉价的PC机组成的机群上运行；Hadoop整体上是主从式架构的，HDFS是主从结构的，MapReduce任务调度模型也是主从结构的；MPI主要的程序设计模式也是主从式的。Hadoop分布式计算的主要思想是MPi和Reduce，而MPI也提供归约函数MPI_Reduce实现各个节点之间的归约操作。
+
+两都的不同点如下：
+（1）MPI标准的制定就是为了科学学者实现尖端科学技术的高速计算，目的是实现高效的并行计算。一般是在专用并行机或者PC机通过局域网搭建的机群上进行并行计算，耦合度很高，节点失效率低，所今MPI没有提供处理节点失效的备份处理。如果有节点失效，必须重新开始计算。而Hadoop是IT工程师开发实现的用于商业用途进行分布式计算的平台，目的是向用户提供服务。一般是由分布在各地的廉价PC通过互联网联接起来为用户提供服务，耦合度比较低，节点失效的可能性很大，所以Hadoop把节点失效看作是系统状态，提供了允许节点失效的备份处理容错机制。
+
+（2）MPI向设计者提供的是一种节点间信息沟通的工具，开发者可以按照自己的意原采用任何架构来实现功能，没有主控节点，计算节点由程序员指定，在主从设计模式的程序中由指定的主节点控制信息的传递，在设计上有较大的自由度。Hadoop是一个分布式计算框架项目，是以架构的形式提出来的，HDFS的NameNode和MapReduce调度中的JobTracker控制其他执行节点，系统自动选择计算节点，所以如何进行分布处理对用户是透明的。
+
+（2）MPI不提供分布式文件系统的支持，数据集中存储，由高级语言通过调用标准函数库传递消息实现并行计算。Hadoop有分布式文件系统HDFS支持，数据存储在HDFS上，由用户定制配置文件，然后编定Map和Reduce函数实现分布式的并行计算，计算时计算向存储迁移。
+
+科学家和IT工程师对云计算技术做出了不同的选择反映了不同领域设计者从不同的角度和层次对同一事物做出不同描述和认识。MPI和Hadoop各有所长，MPI在程序设计上给程序员提供较大的自由度和Hadoop在程序设计上的简单给未来的云计算发展指出了方向。
+
+注：以上的内容摘自[基于MPI和MapReduce的分布并行计算研究](http://wenku.baidu.com/view/f9c29bd0360cba1aa811dabc.html?pn=50)，第24页
+
+####参考链接：
+* [What are some scenarios for which MPI is a better fit than MapReduce?](http://stackoverflow.com/questions/1530490/what-are-some-scenarios-for-which-mpi-is-a-better-fit-than-mapreduce)
+* [分布式计算概述](http://www.cnblogs.com/LeftNotEasy/archive/2010/11/27/1889598.html)
+* [Hadoop 与 MPI 的特性](http://geron.herokuapp.com/blog/2012/03/hadoop-and-mpi)
+* [分布式机器学习的故事](http://cxwangyi.github.io/2014/01/20/distributed-machine-learning/)，第一章[大数据的首要目标是“大”而不是“快”](http://cxwangyi.github.io/story/01_plsa_and_mpi.md.html)
+* [知乎：写分布式机器学习算法，哪种编程接口比较好？](http://www.zhihu.com/question/22544716)
+* [Is There Any Benchmarks Comparing C++ MPI with Spark](http://apache-spark-user-list.1001560.n3.nabble.com/Is-There-Any-Benchmarks-Comparing-C-MPI-with-Spark-td7661.html)
+* [在雲端運算環境使用R和MPI](http://rstudio-pubs-static.s3.amazonaws.com/11810_23d0429b0ae443e28f5392a3a1c9d073.html)
 
 ### 第一步，构建消息库
 * 构建一个可靠的消息队列库
