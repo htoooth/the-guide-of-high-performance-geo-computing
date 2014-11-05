@@ -3,7 +3,7 @@
 
 ## 第一部分 并行计算
 包括一些有关并行的程序库和文档资料。
-### 程序库
+### 有关并行，并发的程序库
 * [ltsmin](https://github.com/htoooth/mpi_resources/tree/master/libraries/ltsmin/src),中有一个有关[mpi的事件机制的循环](https://github.com/htoooth/mpi_resources/blob/master/libraries/ltsmin/src/mpi-event-loop.c)，可以学习。
 * [casablance](http://casablanca.codeplex.com/)，该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 * [Ray](https://github.com/sebhtml/RayPlatform)，mpi为基础的并行计算库
