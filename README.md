@@ -158,6 +158,9 @@ java akka的actor学习
 * [Is There Any Benchmarks Comparing C++ MPI with Spark](http://apache-spark-user-list.1001560.n3.nabble.com/Is-There-Any-Benchmarks-Comparing-C-MPI-with-Spark-td7661.html)
 * [在雲端運算環境使用R和MPI](http://rstudio-pubs-static.s3.amazonaws.com/11810_23d0429b0ae443e28f5392a3a1c9d073.html)
 
+### 我的思考
+MPI是高效的，基础的。
+
 ## 我的任务
 
 ### 第一步，构建消息库
