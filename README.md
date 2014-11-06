@@ -8,17 +8,17 @@
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 * [Ray](https://github.com/sebhtml/RayPlatform).mpi为基础的并行计算库
 * [theron](http://www.theron-library.com/index.php).该库有设计并行的实现
+* [SObjectizer](http://sourceforge.net/projects/sobjectizer/).The SObjectizer is a framework for agent-oriented programming in C++.
 * [caf](http://actor-framework.org/)，该库有设计actor的实现
 * [libprocess](https://github.com/3rdparty/libprocess).process之间的actor风格的库
-* [SObjectizer](http://sourceforge.net/projects/sobjectizer/).The SObjectizer is a framework for agent-oriented programming in C++.
 * [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout).An implementation of the actor model for C++.
 * [libactor](https://code.google.com/p/libactor/).Actor Model Library for C.
 * [Channel](http://channel.sourceforge.net/).Name Space Based C++ Framework For Asynchronous, Distributed Message Passing and Event Dispatching.
 * [C++CSP2](http://www.cs.kent.ac.uk/projects/ofa/c++csp/).Easy Concurrency for C++.
-* [concurrencykit](https://github.com/concurrencykit/ck)
+* [concurrencykit](https://github.com/concurrencykit/ck)，高并发库。
 * [libconcurrency](https://code.google.com/p/libconcurrency/)
 * [libtask](http://swtch.com/libtask/)
-* [state-threads](https://github.com/winlinvip/state-threads).线程级的库实现
+* [state-threads](https://github.com/winlinvip/state-threads).线程级的库实现，这里有一些[文档](http://coolshell.cn/articles/12012.html)。
 * [chan](https://github.com/tylertreat/chan)，纯c实现在channel库
 * [libcoro](http://software.schmorp.de/pkg/libcoro.html).一个并发库
 * [libev](http://software.schmorp.de/pkg/libev.html).一个事件库
@@ -27,8 +27,8 @@
 * [fibjs](https://github.com/xicilion/fibjs).其中有多个类库，可以学习
 * [hpx](https://github.com/STEllAR-GROUP).一个分布式计算框架，可以看看构架
 * [neu](https://github.com/andrometa/neu).另一分布式计算框架，可以看看构架
-* [meguro](https://github.com/jubos/meguro)Javascript.A Javascript Map/Reduce framework
-* [Disco](http://discoproject.org/)python.a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
+* [meguro](https://github.com/jubos/meguro)[Javascript].A Javascript Map/Reduce framework
+* [Disco](http://discoproject.org/)[python].a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
 
 ### 工具类库
 * 序列化
