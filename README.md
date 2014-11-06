@@ -32,23 +32,23 @@
 
 ### 工具类库
 * 序列化
-* [nanomsg](https://github.com/nanomsg)，消息类库
-* [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
-* [protobuf](https://github.com/google/protobuf),谷歌，消息类库
-* [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代序列化库
-* [cereal](http://uscilab.github.io/cereal/index.html)，消息类库
-* [jansson](http://www.digip.org/jansson/)，json类库
+  * [nanomsg](https://github.com/nanomsg)，消息类库
+  * [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
+  * [protobuf](https://github.com/google/protobuf),谷歌，消息类库
+  * [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代序列化库
+  * [cereal](http://uscilab.github.io/cereal/index.html)，消息类库
+  * [jansson](http://www.digip.org/jansson/)，json类库
 * 杂项
-* [zlog](http://hardysimpson.github.io/zlog/)，日志类库
-* [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
-* [sundial](https://github.com/guiquanz/sundial)，常用数据结构
-* [tap](https://github.com/zorgnax/libtap)，测试类库
-* [Ylib](https://github.com/Amaury/Ylib)，常用类库
-* [acl](https://github.com/zhengshuxin/acl)，一个类库
-* [cheat](https://github.com/Tuplanolla/cheat),测试类库
-* [mingw-常用库](http://nuwen.net/mingw.html)
-* [boost](http://www.boost.org/)
-* [POCO](https://github.com/pocoproject)
+  * [zlog](http://hardysimpson.github.io/zlog/)，日志类库
+  * [acl](https://github.com/zhengshuxin/acl)，一个网络类库
+  * [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
+  * [Ylib](https://github.com/Amaury/Ylib)，常用类库
+  * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
+  * [tap](https://github.com/zorgnax/libtap)，测试类库
+  * [cheat](https://github.com/Tuplanolla/cheat),测试类库
+  * [mingw-常用库](http://nuwen.net/mingw.html)
+  * [boost](http://www.boost.org/)
+  * [POCO](https://github.com/pocoproject)
 * 还有很多关于facebook和google开源的项目都可以学习
 
 ### 一些c++文章
