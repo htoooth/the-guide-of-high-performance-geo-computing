@@ -27,6 +27,8 @@
 * [fibjs](https://github.com/xicilion/fibjs)，其中有多个类库，可以学习
 * [hpx](https://github.com/STEllAR-GROUP)，一个分布式计算框架，可以看看构架
 * [neu](https://github.com/andrometa/neu)，另一分布式计算框架，可以看看构架
+* [meguro](https://github.com/jubos/meguro)，A Javascript Map/Reduce framework
+* [Disco](http://discoproject.org/),a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
 
 ### 工具类库
 * [nanomsg](https://github.com/nanomsg)，消息类库
