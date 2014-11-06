@@ -142,6 +142,10 @@ java akka的actor学习
 * [Spark](https://github.com/apache/spark)
 * [Storm](https://github.com/apache/storm)
 
+### 关注地理大数据的组织
+
+* [locationtech](https://www.locationtech.org/),存储，计算，和表达的项目。
+
 ### 我的思考
 MPI是高效的，基础的。
 
