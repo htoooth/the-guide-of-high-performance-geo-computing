@@ -36,6 +36,7 @@
   * [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
   * [protobuf](https://github.com/google/protobuf),谷歌，消息类库
   * [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代序列化库
+  * [thrift](https://thrift.apache.org/)，多语言支持消息化库
   * [cereal](http://uscilab.github.io/cereal/index.html)，消息类库
   * [jansson](http://www.digip.org/jansson/)，json类库
 * 杂项
