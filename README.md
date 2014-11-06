@@ -31,12 +31,14 @@
 * [Disco](http://discoproject.org/),a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
 
 ### 工具类库
+* 序列化
 * [nanomsg](https://github.com/nanomsg)，消息类库
 * [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
 * [protobuf](https://github.com/google/protobuf),谷歌，消息类库
 * [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代序列化库
 * [cereal](http://uscilab.github.io/cereal/index.html)，消息类库
 * [jansson](http://www.digip.org/jansson/)，json类库
+* 杂项
 * [zlog](http://hardysimpson.github.io/zlog/)，日志类库
 * [tbox](https://github.com/waruqi/tbox)，一个工具库类包括常用东西
 * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
