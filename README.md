@@ -73,6 +73,7 @@ java akka的actor学习
 * [如何在CentOS上使用高版本的GCC编译](http://my.oschina.net/kisops/blog/151089)
 * [centos 6 升级gcc](http://www.cnblogs.com/peterpanzsy/archive/2013/04/10/3006838.html)
 * [linux下升级gcc的方法 – 亲测可用](http://www.cppfans.org/1719.html)
+* [Leveldb实现原理](http://www.cppfans.org/1652.html)
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
