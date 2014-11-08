@@ -47,6 +47,7 @@
   * [sundial](https://github.com/guiquanz/sundial)，常用数据结构
   * [tap](https://github.com/zorgnax/libtap)，测试类库
   * [cheat](https://github.com/Tuplanolla/cheat),测试类库
+  * [Catch](https://github.com/philsquared/Catch),测试类库，c++
   * [mingw-常用库](http://nuwen.net/mingw.html)
   * [boost](http://www.boost.org/)
   * [POCO](https://github.com/pocoproject)
