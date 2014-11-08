@@ -68,6 +68,9 @@ java akka的actor学习
 * [Go-style Channel in C++](http://st.xorian.net/blog/2012/08/go-style-channel-in-c/)
 * [actorlite](http://www.cnblogs.com/JeffreyZhao/archive/2009/05/11/a-simple-actor-model-implementation.html)
 老赵的博客中有讲actor的设计，可以借签。
+* [centos下安装gcc-4.8.1](http://ilovers.sinaapp.com/article/centos%E4%B8%8B%E5%AE%89%E8%A3%85gcc-481)
+* [如何在CentOS上使用高版本的GCC编译](http://my.oschina.net/kisops/blog/151089)
+* [centos 6 升级gcc](http://www.cnblogs.com/peterpanzsy/archive/2013/04/10/3006838.html)
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
