@@ -80,6 +80,7 @@ java akka的actor学习
 * [boost-thread(1,2,3,4)](http://amornio.iteye.com/category/226385)
 * [C++并发实战(C++11),	Linux多线程编程C++,网络编程](http://blog.csdn.net/liuxuejiang158/article/category/1774739/2)
 * [信号量 互斥锁 条件变量的区别(讲的很好，值得收藏)](http://www.cnblogs.com/lonelycatcher/archive/2011/12/20/2294161.html)
+* [Sleep for milliseconds](http://stackoverflow.com/questions/4184468/sleep-for-milliseconds)
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
