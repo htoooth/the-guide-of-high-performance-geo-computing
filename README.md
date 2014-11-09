@@ -81,6 +81,13 @@ java akka的actor学习
 * [C++并发实战(C++11),	Linux多线程编程C++,网络编程](http://blog.csdn.net/liuxuejiang158/article/category/1774739/2)
 * [信号量 互斥锁 条件变量的区别(讲的很好，值得收藏)](http://www.cnblogs.com/lonelycatcher/archive/2011/12/20/2294161.html)
 * [Sleep for milliseconds](http://stackoverflow.com/questions/4184468/sleep-for-milliseconds)
+* [C++11之多线程(三、条件变量）,有很多关于c++的文章](http://blog.poxiao.me/p/multi-threading-in-cpp11-part-3-condition-variable/)
+* [C++11 并发指南系列](http://www.cnblogs.com/haippy/p/3284540.html)
+* [C++小品：她来听我的演唱会——C++11中的随机数、线程(THREAD)、互斥(MUTEX)和条件变量](http://www.cppblog.com/chenlq/archive/2011/11/12/159981.html)
+* [Boost Thread学习](http://www.blogjava.net/LittleDS/archive/2010/06/06/201253.html)
+* [再谈互斥锁与条件变量！](http://blog.chinaunix.net/uid-27164517-id-3282242.html)
+* [boost库(条件变量)](http://www.cnblogs.com/zzyoucan/p/3626823.html)
+* [线程学习小结](http://www.cnblogs.com/davidyang2415/archive/2012/04/09/2439104.html)
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
