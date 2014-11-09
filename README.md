@@ -75,6 +75,12 @@ java akka的actor学习
 * [linux下升级gcc的方法 – 亲测可用](http://www.cppfans.org/1719.html)
 * [Leveldb实现原理](http://www.cppfans.org/1652.html)
 
+### c++中关于线程的一些知识，互斥锁，条件变量，信号量
+* [知识点](http://www.360doc.com/userhome.aspx?userid=1317564&cid=437)
+* [boost-thread(1,2,3,4)](http://amornio.iteye.com/category/226385)
+* [C++并发实战(C++11),	Linux多线程编程C++,网络编程](http://blog.csdn.net/liuxuejiang158/article/category/1774739/2)
+* [信号量 互斥锁 条件变量的区别(讲的很好，值得收藏)](http://www.cnblogs.com/lonelycatcher/archive/2011/12/20/2294161.html)
+
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
 * [scons](http://www.scons.org/)
