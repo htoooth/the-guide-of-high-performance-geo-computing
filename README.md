@@ -88,6 +88,7 @@ java akka的actor学习
 * [再谈互斥锁与条件变量！](http://blog.chinaunix.net/uid-27164517-id-3282242.html)
 * [boost库(条件变量)](http://www.cnblogs.com/zzyoucan/p/3626823.html)
 * [线程学习小结](http://www.cnblogs.com/davidyang2415/archive/2012/04/09/2439104.html)
+* [第34课 - 信号量](http://tjumyk.github.io/sdl-tutorial-cn/lessons/lesson34/index.html)
 
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
