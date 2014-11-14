@@ -1,25 +1,41 @@
 # 高性能地理计算学习资料清单
-收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为两个部分，第一个部分为高性能部分，有关并行、并发、MPI等资料；第二个部分有为地理计算部分，有关GDAL/OGR等的资料。
+收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为三个部分：
 
-## 地理信息科学框架
+* 第一个部分为讨论地理信息科学的内容；
+* 第二个部分为高性能计算部分，有关并行、并发、MPI等资料；
+* 第三个部分为地理计算部分，有关GDAL/OGR等的资料；
+* 第四个部分为高性能地理计算部分；
+* 第五个部分为业界最新发展方向；
+* 第六个部分为当前实验进展；
+
+## 第一个部分 地理信息科学
+### 地理信息科学框架
 
 ![框架](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.jpg)
 
 源文件[visio格式](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.vsdx)
 
-## 我的关于并行计算三个设定
+### 我的关于并行计算三个设定
 
 * 第一条：并行算法只能在并行计算机上运行
 * 第二条：并行算法处理的数据，串行算法没有办法处理
 * 第三条：并行算法不一定比串行算法快
 
-## 李老师的GIS三界理论
+### 李老师的GIS三界理论
 
 * 第一界：GIS的理论研究
 * 第二界：GIS的技术开发
 * 第三界：GIS的应用实践
 
-## 第一部分 并行计算
+### 核心重要问题
+
+* 定性
+* 定量
+* 定位
+* 定期
+* 定时
+
+## 第二部分 并行计算
 包括一些有关并行的程序库和文档资料。
 ### 有关并行，并发的程序库
 * [ltsmin](https://github.com/htoooth/mpi_resources/tree/master/libraries/ltsmin/src).中有一个有关[mpi的事件机制的循环](https://github.com/htoooth/mpi_resources/blob/master/libraries/ltsmin/src/mpi-event-loop.c).可以学习。
@@ -123,7 +139,7 @@ java akka的actor学习
 * js-mpi , Null
 * [go-mpi](https://github.com/JohannWeging/go-mpi)
 
-## 第二部分 地理计算
+## 第三部分 地理计算
 
 ### 脚本绑定gdal
 * python-gdal，GDAL中自带
@@ -136,10 +152,10 @@ java akka的actor学习
 * [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
 * [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
 
-## 第三部分 高性能地理计算
+## 第四部分 高性能地理计算
 目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
 
-## 第四部分 其他
+## 第五部分 业界最新发展方向
 
 ### MPI与Hadoop的区别和联系
 并行计算的代表性技术是MPI，云计算的代表性技术是Hadoop。云计算的基础是并行计算，是并行计算和网络结合而发展起来的。MPI和Hadoop代表了不同背影开发者和学术的不同观点。所以MPI和Hadoop有很大的关系，既有共同点也有很多不同之处。
@@ -194,25 +210,27 @@ java akka的actor学习
 * [ideone](http://ideone.com/)
 * [codebox](https://www.codebox.io/)
 
+## 当前实验进展
+
 ### 我的思考
 MPI是高效的，基础的。
 
-## 我的任务
+### 我的任务
 
-### 第一步，构建消息库
+#### 第一步，构建消息库
 * 构建一个可靠的消息队列库
 * 利用消息队列库，实现多进程的合作
 
-### 第二步，设计同步模式
+#### 第二步，设计同步模式
 * 基于scala的actor
 * 基结go的channel
 * 基于react的，也就是基于事件
 * geaman队列系统
 
-### 第三步，嵌入脚本语言
+#### 第三步，嵌入脚本语言
 * 嵌入脚本，融合python，ruby，lua或者newlisp。
 
-## 打算要做的事
+### 打算要做的事
 * 将gdal中[port](https://github.com/OSGeo/gdal/tree/trunk/gdal/port)库提出来，专门做一个工具库类库。
 * 将[readme.md](https://github.com/htoooth/libpcm)写完
 * 将[mpi-rpc](https://github.com/htoooth/hpgc_new/blob/master/src/rpc.cpp)再拿出来研究
