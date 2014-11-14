@@ -1,5 +1,5 @@
 # 高性能地理计算学习资料清单
-收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为三个部分：
+收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为六个部分：
 
 * 第一个部分为讨论地理信息科学的内容；
 * 第二个部分为高性能计算部分，有关并行、并发、MPI等资料；
@@ -185,7 +185,7 @@ java akka的actor学习
 
 注：这段内容摘自[大数据的首要目标是“大”而不是“快”](http://cxwangyi.github.io/story/01_plsa_and_mpi.md.html)
 
-#### 参考链接：
+### 参考链接：
 * [What are some scenarios for which MPI is a better fit than MapReduce?](http://stackoverflow.com/questions/1530490/what-are-some-scenarios-for-which-mpi-is-a-better-fit-than-mapreduce)
 * [分布式计算概述](http://www.cnblogs.com/LeftNotEasy/archive/2010/11/27/1889598.html)
 * [Hadoop 与 MPI 的特性](http://geron.herokuapp.com/blog/2012/03/hadoop-and-mpi)
@@ -201,7 +201,7 @@ java akka的actor学习
 
 ### 关注地理大数据的组织
 
-* [locationtech](https://www.locationtech.org/),存储，计算，和表达的项目。
+* [locationtech](https://www.locationtech.org/),观注地理信息的存储、计算和表达的项目。
 
 ### 在线工具
 * [nitrous](https://www.nitrous.io/)
@@ -210,12 +210,12 @@ java akka的actor学习
 * [ideone](http://ideone.com/)
 * [codebox](https://www.codebox.io/)
 
-## 当前实验进展
+## 第六部分 当前实验进展
 
 ### 我的思考
 MPI是高效的，基础的。
 
-### 我的任务
+### 我的任务安排
 
 #### 第一步，构建消息库
 * 构建一个可靠的消息队列库
