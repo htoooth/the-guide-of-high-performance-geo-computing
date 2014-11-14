@@ -8,6 +8,8 @@
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 * [Ray](https://github.com/sebhtml/RayPlatform).mpi为基础的并行计算库
 * [theron](http://www.theron-library.com/index.php).该库有设计并行的实现
+* [mpi-rpc](https://github.com/rjpower/piccolo/blob/master/src/util/rpc.cc)
+* [zht-mpi](https://bitbucket.org/xiaobingo/iit.datasys.zht-mpi)
 * [SObjectizer](http://sourceforge.net/projects/sobjectizer/).The SObjectizer is a framework for agent-oriented programming in C++.
 * [caf](http://actor-framework.org/)，该库有设计actor的实现
 * [libprocess](https://github.com/3rdparty/libprocess).process之间的actor风格的库
