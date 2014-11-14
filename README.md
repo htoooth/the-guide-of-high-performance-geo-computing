@@ -5,6 +5,8 @@
 
 ![框架](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.jpg)
 
+源文件[visio格式](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.vsdx)
+
 ## 我的关于并行计算三个设定
 
 * 第一条：并行算法只能在并行计算机上运行
