@@ -2,7 +2,7 @@
 收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为六个部分：
 
 ##目录
-* 第一个部分：[地理信息科学](https://github.com/htoooth/mpi_resources#%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%83%A8%E5%88%86-%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6)，讨论地理信息科学的内容；
+* 第一个部分：[地理信息科学](#地理信息科学)，讨论地理信息科学的内容；
 * 第二个部分：[并行计算](https://github.com/htoooth/mpi_resources#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97)，为高性能计算部分，有关并行、并发、MPI等资料；
 * 第三个部分：[地理计算](https://github.com/htoooth/mpi_resources#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86-%E5%9C%B0%E7%90%86%E8%AE%A1%E7%AE%97)，有关GDAL/OGR等的资料；
 * 第四个部分: [高性能地理计算](https://github.com/htoooth/mpi_resources#%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86-%E9%AB%98%E6%80%A7%E8%83%BD%E5%9C%B0%E7%90%86%E8%AE%A1%E7%AE%97)，收集整理高性能地理计算部分；
