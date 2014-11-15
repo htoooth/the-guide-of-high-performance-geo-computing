@@ -214,6 +214,25 @@ java akka的actor学习
 
 ## 第六部分 云计算和大数据
 
+### 运维工具
+* [Func](https://fedorahosted.org/func/),python
+* [Fabric](http://www.fabfile.org/),python
+* [salt](http://www.saltstack.com/),python
+* [Chef](https://www.getchef.com/),ruby
+* [ruby-machine-learning](http://www.yangzhiping.com/tech/ruby-machine-learning.html),ruby
+* [ruby布署](http://www.yangzhiping.com/tech/cloud.html),ruby
+* [Rex](http://www.rexify.org/),perl
+* [gearman](http://gearman.org/)
+* [rabbitmq](http://www.rabbitmq.com/)
+
+### 机器学习
+#### 搜索
+
+#### 推荐
+
+#### 挖掘
+
+
 ## 第七部分 当前实验进展
 
 ### 我的思考
