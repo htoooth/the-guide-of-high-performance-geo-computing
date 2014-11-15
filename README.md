@@ -5,12 +5,12 @@
 * 第一部分：__地理信息科学__，讨论地理信息科学的内容；
 * 第二部分：__并行计算__，为高性能计算部分，有关并行、并发、MPI等资料；
 * 第三部分：__地理计算__，有关GDAL/OGR等的资料；
-* 第四部分: __高性能地理计算__，收集整理高性能地理计算部分；
+* 第四部分：__高性能地理计算__，收集整理高性能地理计算部分；
 * 第五部分：__业界最新发展方向__，为业界最新发展方向；
 * 第六部分：__云计算和大数据__，为业界的动态；
 * 第七部分：__当前实验进展__，为当前实验进展；
 
-## 第一个部分 地理信息科学
+## 第一部分 地理信息科学
 ### 地理信息科学框架
 
 ![框架](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.jpg)
@@ -141,25 +141,8 @@ java akka的actor学习
 * js-mpi , Null
 * [go-mpi](https://github.com/JohannWeging/go-mpi)
 
-## 第三部分 地理计算
-
-### 脚本绑定gdal
-* python-gdal，GDAL中自带
-* [ruby-gdal](https://github.com/zhm/gdal-ruby)
-* lua-gdal,Null
-* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
-* [go-gdal](https://github.com/lukeroth/gdal)
-
-### 文档资料
-* [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
-* [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
-
-## 第四部分 高性能地理计算
-目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
-
-## 第五部分 业界最新发展方向
-
-### MPI与Hadoop的区别和联系
+### MPI相关问题汇总
+#### MPI与Hadoop的区别和联系
 并行计算的代表性技术是MPI，云计算的代表性技术是Hadoop。云计算的基础是并行计算，是并行计算和网络结合而发展起来的。MPI和Hadoop代表了不同背影开发者和学术的不同观点。所以MPI和Hadoop有很大的关系，既有共同点也有很多不同之处。
 
 两者的相同点如下：
@@ -177,7 +160,7 @@ java akka的actor学习
 
 注：以上的内容摘自[基于MPI和MapReduce的分布并行计算研究](http://wenku.baidu.com/view/f9c29bd0360cba1aa811dabc.html?pn=50)，第24页
 
-### MPI的问题
+#### MPI的问题
 
 具体的说，MPI允许进程之间在任何时刻互相通信。如果一个进程挂了，我们确实可以请分布式操作系统重启之。但是如果要让这个“新生”获取它“前世”的状态，我们就需要让它从初始状态开始执行，接收到其前世曾经收到的所有消息。这就要求所有给“前世”发过消息的进程都被重启。而这些进程都需要接收到他们的“前世”接收到过的所有消息。这种数据依赖的结果就是：所有进程都得重启，那么这个job就得重头做。
 
@@ -187,7 +170,7 @@ java akka的actor学习
 
 注：这段内容摘自[大数据的首要目标是“大”而不是“快”](http://cxwangyi.github.io/story/01_plsa_and_mpi.md.html)
 
-### 参考链接：
+#### 参考链接：
 * [What are some scenarios for which MPI is a better fit than MapReduce?](http://stackoverflow.com/questions/1530490/what-are-some-scenarios-for-which-mpi-is-a-better-fit-than-mapreduce)
 * [分布式计算概述](http://www.cnblogs.com/LeftNotEasy/archive/2010/11/27/1889598.html)
 * [Hadoop 与 MPI 的特性](http://geron.herokuapp.com/blog/2012/03/hadoop-and-mpi)
@@ -196,15 +179,28 @@ java akka的actor学习
 * [Is There Any Benchmarks Comparing C++ MPI with Spark](http://apache-spark-user-list.1001560.n3.nabble.com/Is-There-Any-Benchmarks-Comparing-C-MPI-with-Spark-td7661.html)
 * [在雲端運算環境使用R和MPI](http://rstudio-pubs-static.s3.amazonaws.com/11810_23d0429b0ae443e28f5392a3a1c9d073.html)
 
-### 业界最新的计算框架
+## 第三部分 地理计算
 
+### 脚本绑定gdal
+* python-gdal，GDAL中自带
+* [ruby-gdal](https://github.com/zhm/gdal-ruby)
+* lua-gdal,Null
+* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
+* [go-gdal](https://github.com/lukeroth/gdal)
+
+### 文档资料
+* [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
+* [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
+
+## 第四部分 高性能地理计算
+目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
+
+## 第五部分 业界最新发展方向
+### 业界最新的计算框架
 * [Spark](https://github.com/apache/spark)
 * [Storm](https://github.com/apache/storm)
-
 ### 关注地理大数据的组织
-
 * [locationtech](https://www.locationtech.org/),观注地理信息的存储、计算和表达的项目。
-
 ### 在线工具
 * [nitrous](https://www.nitrous.io/)
 * [cloud9](https://c9.io/)
@@ -213,7 +209,6 @@ java akka的actor学习
 * [codebox](https://www.codebox.io/)
 
 ## 第六部分 云计算和大数据
-
 ### 运维工具
 * [Func](https://fedorahosted.org/func/),python
 * [Fabric](http://www.fabfile.org/),python
@@ -235,7 +230,7 @@ java akka的actor学习
 
 ## 第七部分 当前实验进展
 
-### 我的思考
+### 框架思考
 MPI是高效的，基础的。
 
 ### 我的任务安排
