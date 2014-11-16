@@ -39,6 +39,14 @@
 
 ## 第二部分 并行计算
 包括一些有关并行的程序库和文档资料。
+
+### 计算机语言
+![程序语言](https://github.com/htoooth/mpi_resources/blob/master/docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.jpg)
+这是我的判断图。
+源文件[visio格式](https://github.com/htoooth/mpi_resources/blob/master/docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.vsdx)
+
+当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
+
 ### 有关并行，并发的程序库
 * [ltsmin](https://github.com/htoooth/mpi_resources/tree/master/libraries/ltsmin/src).中有一个有关[mpi的事件机制的循环](https://github.com/htoooth/mpi_resources/blob/master/libraries/ltsmin/src/mpi-event-loop.c).可以学习。
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
