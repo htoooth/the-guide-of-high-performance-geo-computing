@@ -60,6 +60,7 @@
 * [zht-mpi](https://bitbucket.org/xiaobingo/iit.datasys.zht-mpi)
 * [SObjectizer](http://sourceforge.net/projects/sobjectizer/).The SObjectizer is a framework for agent-oriented programming in C++.
 * [caf](http://actor-framework.org/)，该库有设计actor的实现
+* [TBB](https://www.threadingbuildingblocks.org/)，Intel Threading Building Blocks
 * [libprocess](https://github.com/3rdparty/libprocess).process之间的actor风格的库
 * [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout).An implementation of the actor model for C++.
 * [libactor](https://code.google.com/p/libactor/).Actor Model Library for C.
