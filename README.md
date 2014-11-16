@@ -47,6 +47,10 @@
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
+### 软件开发过程管理
+
+[快速构建一致的开发环境](http://yunlzheng.github.io/2014/10/08/build-local-develop-env/)
+
 ### 有关并行，并发的程序库
 * [ltsmin](https://github.com/htoooth/mpi_resources/tree/master/libraries/ltsmin/src).中有一个有关[mpi的事件机制的循环](https://github.com/htoooth/mpi_resources/blob/master/libraries/ltsmin/src/mpi-event-loop.c).可以学习。
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
