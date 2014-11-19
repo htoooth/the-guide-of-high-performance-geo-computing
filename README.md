@@ -10,6 +10,8 @@
 * 第六部分：__云计算和大数据__，为业界的动态；
 * 第七部分：__当前实验进展__，为当前实验进展；
 
+---
+
 ## 第一部分 地理信息科学
 ### 地理信息科学框架
 
@@ -36,6 +38,8 @@
 * 定位
 * 定期
 * 定时
+
+----
 
 ## 第二部分 并行计算
 包括一些有关并行的程序库和文档资料。
@@ -193,6 +197,8 @@ java akka的actor学习
 * [Is There Any Benchmarks Comparing C++ MPI with Spark](http://apache-spark-user-list.1001560.n3.nabble.com/Is-There-Any-Benchmarks-Comparing-C-MPI-with-Spark-td7661.html)
 * [在雲端運算環境使用R和MPI](http://rstudio-pubs-static.s3.amazonaws.com/11810_23d0429b0ae443e28f5392a3a1c9d073.html)
 
+----
+
 ## 第三部分 地理计算
 
 ### 脚本绑定gdal
@@ -206,8 +212,13 @@ java akka的actor学习
 * [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
 * [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
 
+----
+
+
 ## 第四部分 高性能地理计算
 目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
+
+----
 
 ## 第五部分 业界最新发展方向
 ### 业界最新的计算框架
@@ -225,6 +236,9 @@ java akka的actor学习
 * [koding](https://koding.com/)
 * [ideone](http://ideone.com/)
 * [codebox](https://www.codebox.io/)
+
+----
+
 
 ## 第六部分 云计算和大数据
 
@@ -247,6 +261,8 @@ java akka的actor学习
 
 #### 挖掘
 
+
+----
 
 ## 第七部分 当前实验进展
 
