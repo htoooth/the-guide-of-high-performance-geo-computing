@@ -202,7 +202,7 @@ java akka的actor学习
 ## 第三部分 地理计算
 
 ### 脚本绑定gdal
-* python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932),
+* python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932)
 * [ruby-gdal](https://github.com/zhm/gdal-ruby)
 * lua-gdal,Null
 * [node.js-gdal](https://github.com/naturalatlas/node-gdal)
