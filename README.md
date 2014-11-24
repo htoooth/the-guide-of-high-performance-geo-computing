@@ -130,6 +130,9 @@ java akka的actor学习
 * [centos 6 升级gcc](http://www.cnblogs.com/peterpanzsy/archive/2013/04/10/3006838.html)
 * [linux下升级gcc的方法 – 亲测可用](http://www.cppfans.org/1719.html)
 * [Leveldb实现原理](http://www.cppfans.org/1652.html)
+* [gmock学习01---Linux配置gmock](http://www.cnblogs.com/bourneli/archive/2012/09/08/2677000.html)
+* [玩转Google开源C++单元测试框架Google Test系列(gtest)(总)](http://www.cnblogs.com/coderzh/archive/2009/04/06/1426755.html)
+* [CMake 入门实战](http://hahack.com/codes/cmake/)
 
 ### c++中关于线程的一些知识，互斥锁，条件变量，信号量
 * [知识点](http://www.360doc.com/userhome.aspx?userid=1317564&cid=437)
@@ -253,6 +256,14 @@ java akka的actor学习
 * [Rex](http://www.rexify.org/),perl
 * [gearman](http://gearman.org/)
 * [rabbitmq](http://www.rabbitmq.com/)
+
+### Rake 使用
+* [ rake任务从命令行传递参数的两种方式](http://my.oschina.net/fxhover/blog/326766)
+* [Rake Quick Reference](https://sites.google.com/site/spontaneousderivation/rake-quick-reference#TOC-Dependencies-Pre-requisites)
+* [Rake: Automate All the Things](http://www.sitepoint.com/rake-automate-things/)
+* [Using the Rake Build Language](http://martinfowler.com/articles/rake.html)
+* [Using Rake to Automate Tasks](http://www.stuartellis.eu/articles/rake/)
+
 
 ### 机器学习
 #### 搜索
