@@ -130,6 +130,8 @@ java akka的actor学习
 * [centos 6 升级gcc](http://www.cnblogs.com/peterpanzsy/archive/2013/04/10/3006838.html)
 * [linux下升级gcc的方法 – 亲测可用](http://www.cppfans.org/1719.html)
 * [How to Install gcc 4.7.x/4.8.x on CentOS](http://superuser.com/questions/381160/how-to-install-gcc-4-7-x-4-8-x-on-centos)
+* [CENTOS快速方便支持C++](http://www.cnblogs.com/yokel/p/3977522.html)
+* [Devtools for CentOS](http://braaten-family.org/ed/blog/2014-05-28-devtools-for-centos/)
 * [Leveldb实现原理](http://www.cppfans.org/1652.html)
 * [gmock学习01---Linux配置gmock](http://www.cnblogs.com/bourneli/archive/2012/09/08/2677000.html)
 * [玩转Google开源C++单元测试框架Google Test系列(gtest)(总)](http://www.cnblogs.com/coderzh/archive/2009/04/06/1426755.html)
