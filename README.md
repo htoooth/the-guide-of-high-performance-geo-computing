@@ -106,6 +106,7 @@
   * [mingw-常用库](http://nuwen.net/mingw.html)
   * [boost](http://www.boost.org/)
   * [POCO](https://github.com/pocoproject)
+  * [Concurrent Data Structures ](http://libcds.sourceforge.net/)
 * 还有很多关于facebook和google开源的项目都可以学习
 
 ### 一些c++文章
