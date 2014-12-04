@@ -35,9 +35,9 @@
 
 * 定性
 * 定量
-* 定位
-* 定期
-* 定时
+* 定位（空间分析）
+* 定期（时序分析）
+* 定时（典型调查与总体特征分析）
 
 ----
 
@@ -84,6 +84,7 @@
 * [neu](https://github.com/andrometa/neu).另一分布式计算框架，可以看看构架
 * [meguro](https://github.com/jubos/meguro)[Javascript].A Javascript Map/Reduce framework
 * [Disco](http://discoproject.org/)[python].a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
+* [GraphLab](http://graphlab.org/projects/index.html)
 
 ### 工具类库
 * 序列化
