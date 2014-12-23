@@ -138,6 +138,7 @@ java akka的actor学习
 * [gmock学习01---Linux配置gmock](http://www.cnblogs.com/bourneli/archive/2012/09/08/2677000.html)
 * [玩转Google开源C++单元测试框架Google Test系列(gtest)(总)](http://www.cnblogs.com/coderzh/archive/2009/04/06/1426755.html)
 * [CMake 入门实战](http://hahack.com/codes/cmake/)
+* [Principles of Distributed Computing](http://dcg.ethz.ch/lectures/podc_allstars/)
 
 ### c++中关于线程的一些知识，互斥锁，条件变量，信号量
 * [知识点](http://www.360doc.com/userhome.aspx?userid=1317564&cid=437)
