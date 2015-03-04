@@ -85,6 +85,8 @@
 * [meguro](https://github.com/jubos/meguro)[Javascript].A Javascript Map/Reduce framework
 * [Disco](http://discoproject.org/)[python].a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
 * [GraphLab](http://graphlab.org/projects/index.html)
+* [MapReduce for C（MR4C）](https://github.com/google/mr4c)，目的是为了优化其地理空间数据及计算机视觉代码库。
+* [GeoKettle](http://www.geokettle.org/)s a powerful, metadata-driven Spatial ETL tool dedicated to the integration of different spatial data sources for building and updating geospatial data warehouses. [download](http://dev.spatialytics.com/svn/geokettle-2.0/tags/2.5/)
 
 ### 工具类库
 * 序列化
