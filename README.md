@@ -247,6 +247,7 @@ java akka的actor学习
 
 * [Spark](https://github.com/apache/spark)
 * [Storm](https://github.com/apache/storm)
+* [Samza](http://samza.apache.org/)
 
 ### 关注地理大数据的组织
 
