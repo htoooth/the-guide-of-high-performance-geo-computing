@@ -66,12 +66,12 @@
 * [caf](http://actor-framework.org/)，该库有设计actor的实现
 * [TBB](https://www.threadingbuildingblocks.org/)，Intel Threading Building Blocks
 * [libprocess](https://github.com/3rdparty/libprocess).process之间的actor风格的库
-* [actor-cpp](https://code.google.com/p/actor-cpp/source/checkout).An implementation of the actor model for C++.
-* [libactor](https://code.google.com/p/libactor/).Actor Model Library for C.
+* [actor-cpp](https://import.github.com/htoooth/actor-cpp/).An implementation of the actor model for C++.
+* [libactor](https://import.github.com/htoooth/libactor).Actor Model Library for C.
 * [Channel](http://channel.sourceforge.net/).Name Space Based C++ Framework For Asynchronous, Distributed Message Passing and Event Dispatching.
 * [C++CSP2](http://www.cs.kent.ac.uk/projects/ofa/c++csp/).Easy Concurrency for C++.
 * [concurrencykit](https://github.com/concurrencykit/ck)，高并发库。
-* [libconcurrency](https://code.google.com/p/libconcurrency/)
+* [libconcurrency](https://import.github.com/htoooth/libconcurrency)
 * [libtask](http://swtch.com/libtask/)
 * [state-threads](https://github.com/winlinvip/state-threads).线程级的库实现，这里有一些[文档](http://coolshell.cn/articles/12012.html)。
 * [chan](https://github.com/tylertreat/chan)，纯c实现在channel库
@@ -162,7 +162,7 @@ java akka的actor学习
 ### 构建工具的选择
 * [premake](http://industriousone.com/premake)
 * [scons](http://www.scons.org/)
-* [gyp](https://code.google.com/p/gyp/)
+* [gyp](https://github.com/htoooth/gyp)
 * [cmake](http://www.cmake.org/)
 
 ### 脚本绑定mpi
