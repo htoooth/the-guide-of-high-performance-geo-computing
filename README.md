@@ -99,6 +99,7 @@
 ### 工具类库
 * 序列化
   * [nanomsg](https://github.com/nanomsg)，消息类库
+  * [Bond](https://github.com/Microsoft/bond/),微软出品
   * [capnproto](http://kentonv.github.io/capnproto/cxxrpc.html)，消息类库
   * [protobuf](https://github.com/google/protobuf),谷歌，消息类库，[文档](http://www.searchtb.com/2012/09/protocol-buffers.html)
   * [flatbuffers](http://google.github.io/flatbuffers/index.html),谷歌出品，新一代序列化库
