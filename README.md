@@ -3,8 +3,8 @@
 
 ##目录
 * 第一部分：__地理信息科学__，讨论地理信息科学的内容；
-* 第二部分：__并行计算__，为高性能计算部分，有关并行、并发、MPI等资料；
-* 第三部分：__地理计算__，有关GDAL/OGR等的资料；
+* 第二部分：__地理计算__，有关GDAL/OGR等的资料；
+* 第三部分：__并行计算__，为高性能计算部分，有关并行、并发、MPI等资料；
 * 第四部分：__高性能地理计算__，收集整理高性能地理计算部分；
 * 第五部分：__业界最新发展方向__，为业界最新发展方向；
 * 第六部分：__云计算和大数据__，为业界的动态；
@@ -33,14 +33,39 @@
 * 定期（时序分析）
 * 定时（典型调查与总体特征分析）
 
-### 地理相关工具
+### 人类依靠地理能怎样认识地球？
 
+
+----
+
+
+## 第二部分 地理计算
+
+### 脚本绑定gdal
+* python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932)
+* [ruby-gdal](https://github.com/zhm/gdal-ruby)
+* lua-gdal,Null
+* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
+* [go-gdal](https://github.com/lukeroth/gdal)
+
+### 文档资料
+* [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
+* [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
+
+### 开源地理服务
+* [mapserver](http://lab.osgeo.cn/mapserver_tutorial/index.html)
+* [geocloud2](http://www.mapcentia.com/en/geocloud/),A complete platform for managing geospatial data, making map visualisations and creating applications. Built on the best open source and standard based software.
+* [opengoe-suite](http://boundlessgeo.com/solutions/opengeo-suite/), Build great maps and apps with the geospatial power of our standards-based platform.
+* [geoserver](http://geoserver.org/),is an open source software server written in Java that allows users to share and edit geospatial data. 
+* [geomoose](http://www.geomoose.org/),is a Web Client JavaScript Framework for displaying distributed cartographic data that built upon other open source projects MapServer,OpenLayers and Dojo Toolkit.
+* [geonode](http://geonode.org/). Open Source Geospatial Content Management System.
 * [mapzen](https://mapzen.com/)，一系列开源库，帮助你构建自己的地图系统。
 * [mapbox](https://www.mapbox.com/)，新一代的地图工具。
 
 ----
 
-## 第二部分 并行计算
+
+## 第三部分 并行计算
 包括一些有关并行的程序库和文档资料。
 
 ### 我的关于并行计算三个设定
@@ -50,7 +75,7 @@
 * 第三条：并行算法不一定比串行算法快
 
 
-### 计算机语言
+### 程序语言讨论
 ![程序语言](https://github.com/htoooth/mpi_resources/blob/master/docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.jpg)
 这是我的判断图。
 源文件[visio格式](https://github.com/htoooth/mpi_resources/blob/master/docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.vsdx)
@@ -61,7 +86,7 @@
 
 [快速构建一致的开发环境](http://yunlzheng.github.io/2014/10/08/build-local-develop-env/)
 
-### 有关并行，并发的程序库
+### 并行类库
 * [ltsmin](https://github.com/htoooth/mpi_resources/tree/master/libraries/ltsmin/src).中有一个有关[mpi的事件机制的循环](https://github.com/htoooth/mpi_resources/blob/master/libraries/ltsmin/src/mpi-event-loop.c).可以学习。
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 * [Ray](https://github.com/sebhtml/RayPlatform).mpi为基础的并行计算库
@@ -122,7 +147,7 @@
   * [Concurrent Data Structures ](http://libcds.sourceforge.net/)
 * 还有很多关于facebook和google开源的项目都可以学习
 
-### 一些c++文章
+### 关于并发的文章
 * [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
 * [mpi相关练习](https://computing.llnl.gov/tutorials/mpi/exercise.html)
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
@@ -152,7 +177,7 @@ java akka的actor学习
 * [CMake 入门实战](http://hahack.com/codes/cmake/)
 * [Principles of Distributed Computing](http://dcg.ethz.ch/lectures/podc_allstars/)
 
-### c++中关于线程的一些知识，互斥锁，条件变量，信号量
+### c++中关于线程的学习
 * [知识点](http://www.360doc.com/userhome.aspx?userid=1317564&cid=437)
 * [boost-thread(1,2,3,4)](http://amornio.iteye.com/category/226385)
 * [C++并发实战(C++11),	Linux多线程编程C++,网络编程](http://blog.csdn.net/liuxuejiang158/article/category/1774739/2)
@@ -168,7 +193,7 @@ java akka的actor学习
 * [第34课 - 信号量](http://tjumyk.github.io/sdl-tutorial-cn/lessons/lesson34/index.html)
 * [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
 
-### 构建工具的选择
+### C++构建工具的选择
 * [premake](http://industriousone.com/premake)
 * [scons](http://www.scons.org/)
 * [gyp](https://github.com/htoooth/gyp)
@@ -221,26 +246,6 @@ java akka的actor学习
 
 ----
 
-## 第三部分 地理计算
-
-### 脚本绑定gdal
-* python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932)
-* [ruby-gdal](https://github.com/zhm/gdal-ruby)
-* lua-gdal,Null
-* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
-* [go-gdal](https://github.com/lukeroth/gdal)
-
-### 文档资料
-* [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
-* [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
-
-### 开源地图服务器
-* [mapserver](http://lab.osgeo.cn/mapserver_tutorial/index.html)
-* [geocloud2](http://www.mapcentia.com/en/geocloud/),A complete platform for managing geospatial data, making map visualisations and creating applications. Built on the best open source and standard based software.
-* [opengoe-suite](http://boundlessgeo.com/solutions/opengeo-suite/), Build great maps and apps with the geospatial power of our standards-based platform.
-
-
-----
 
 ## 第四部分 高性能地理计算
 目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
