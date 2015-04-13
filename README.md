@@ -285,6 +285,7 @@ java akka的actor学习
 * [Func](https://fedorahosted.org/func/),python
 * [Fabric](http://www.fabfile.org/),python
 * [salt](http://www.saltstack.com/),python
+* [ansible](http://www.ansible.com/home),python
 * [Chef](https://www.getchef.com/),ruby
 * [ruby-machine-learning](http://www.yangzhiping.com/tech/ruby-machine-learning.html),ruby
 * [ruby布署](http://www.yangzhiping.com/tech/cloud.html),ruby
