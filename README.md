@@ -128,6 +128,7 @@
 * [neu](https://github.com/andrometa/neu).另一分布式计算框架，可以看看构架
 * [meguro](https://github.com/jubos/meguro)[Javascript].A Javascript Map/Reduce framework
 * [Disco](http://discoproject.org/)[python].a lightweight, open-source framework for distributed computing based on the MapReduce paradigm.
+* [mrjob](https://github.com/Yelp/mrjob),Run MapReduce jobs on Hadoop or Amazon Web Services.
 * [jug](https://github.com/luispedro/jug), A Task-Based Parallelization Framework.
 * [GraphLab](http://graphlab.org/projects/index.html)
 * [MapReduce for C（MR4C）](https://github.com/google/mr4c)，目的是为了优化其地理空间数据及计算机视觉代码库。
@@ -299,6 +300,7 @@ java akka的actor学习
 * [salt](http://www.saltstack.com/),python
 * [ansible](http://www.ansible.com/home),python
 * [Chef](https://www.getchef.com/),ruby
+* [rundeck](https://github.com/rundeck/rundeck),Job scheduler and runbook automation. Enable self-service access to existing scripts and tools.
 * [ruby-machine-learning](http://www.yangzhiping.com/tech/ruby-machine-learning.html),ruby
 * [ruby布署](http://www.yangzhiping.com/tech/cloud.html),ruby
 * [Rex](http://www.rexify.org/),perl
