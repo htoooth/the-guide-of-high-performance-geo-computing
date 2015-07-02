@@ -307,6 +307,10 @@ java akka的actor学习
 * [gearman](http://gearman.org/)
 * [rabbitmq](http://www.rabbitmq.com/)
 
+### 自动化脚本
+* AHK
+* [sikuli](http://www.sikuli.org/)，Sikuli automates anything you see on the screen. It uses image recognition to identify and control GUI components. It is useful when there is no easy access to a GUI's internal or source code.
+
 ### Rake 使用
 * [ rake任务从命令行传递参数的两种方式](http://my.oschina.net/fxhover/blog/326766)
 * [Rake Quick Reference](https://sites.google.com/site/spontaneousderivation/rake-quick-reference#TOC-Dependencies-Pre-requisites)
