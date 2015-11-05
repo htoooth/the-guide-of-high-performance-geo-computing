@@ -86,6 +86,18 @@
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
+### 参考设计语言
+* [nonelang](https://bitbucket.org/duangle/nonelang/src)
+* [fakescript](https://bitbucket.org/esrrhs/fakescript)
+* [L++](https://bitbucket.org/ktg/l)
+* [paren](https://bitbucket.org/ktg/paren)
+* [morfa](https://bitbucket.org/morfa-dev/morfa)
+* [ponyc](https://github.com/CausalityLtd/ponyc)
+* [Def](https://github.com/yangjiePro/Def)
+
+### 理想中的语言
+我自己的语言正在设计中，参见[YAPL](https://github.com/htoooth/YAPL/)。
+
 #### 注意
 * Cobra 语言设计很有意思将测试和契约设计思想融入语言的设计中，值得学习。
 
