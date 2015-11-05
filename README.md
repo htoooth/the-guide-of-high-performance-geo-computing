@@ -105,6 +105,7 @@
 * [ponyc](https://github.com/CausalityLtd/ponyc)
 * [Def](https://github.com/yangjiePro/Def)
 * [fantom](http://fantom.org/)
+* [gosu-lang](https://github.com/gosu-lang/gosu-lang)
 
 ### 理想中的语言
 我自己的语言正在设计中，参见[YAPL](https://github.com/htoooth/YAPL/)。
