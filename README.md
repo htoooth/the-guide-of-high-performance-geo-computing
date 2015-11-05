@@ -94,8 +94,9 @@
 
 * [antlr](http://www.antlr.org/)
 * [Nitra](https://github.com/JetBrains/Nitra)
-* 
+
 ### 参考设计语言
+
 * [nonelang](https://bitbucket.org/duangle/nonelang/src)
 * [fakescript](https://bitbucket.org/esrrhs/fakescript)
 * [L++](https://bitbucket.org/ktg/l)
@@ -106,7 +107,6 @@
 
 ### 理想中的语言
 我自己的语言正在设计中，参见[YAPL](https://github.com/htoooth/YAPL/)。
-
 
 ### 软件开发过程管理
 
