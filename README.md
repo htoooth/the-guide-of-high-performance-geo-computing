@@ -86,6 +86,15 @@
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
+#### 注意
+* Cobra 语言设计很有意思将测试和契约设计思想融入语言的设计中，值得学习。
+
+### 程序语言设计库
+如何设计一门自已的程序语言，有以下库可以帮助你：
+
+* [antlr](http://www.antlr.org/)
+* [Nitra](https://github.com/JetBrains/Nitra)
+* 
 ### 参考设计语言
 * [nonelang](https://bitbucket.org/duangle/nonelang/src)
 * [fakescript](https://bitbucket.org/esrrhs/fakescript)
@@ -98,14 +107,6 @@
 ### 理想中的语言
 我自己的语言正在设计中，参见[YAPL](https://github.com/htoooth/YAPL/)。
 
-#### 注意
-* Cobra 语言设计很有意思将测试和契约设计思想融入语言的设计中，值得学习。
-
-### 程序语言设计库
-如何设计一门自已的程序语言，有以下库可以帮助你：
-
-* [antlr](http://www.antlr.org/)
-* [Nitra](https://github.com/JetBrains/Nitra)
 
 ### 软件开发过程管理
 
