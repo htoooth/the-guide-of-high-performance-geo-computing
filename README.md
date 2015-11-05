@@ -146,6 +146,7 @@
 * [MapReduce for C（MR4C）](https://github.com/google/mr4c)，目的是为了优化其地理空间数据及计算机视觉代码库。
 * [GeoKettle](http://www.geokettle.org/) is a powerful, metadata-driven Spatial ETL tool dedicated to the integration of different spatial data sources for building and updating geospatial data warehouses. [download](http://dev.spatialytics.com/svn/geokettle-2.0/tags/2.5/)
 * [HPX ](https://github.com/STEllAR-GROUP/hpx),A general purpose C++ runtime system for parallel and distributed applications of any scale.
+* [dask](https://github.com/blaze/dask)，Dask provides multi-core execution on larger-than-memory datasets using blocked algorithms and task scheduling.
 
 
 ### 工具类库
