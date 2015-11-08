@@ -1,7 +1,7 @@
 # 高性能地理计算学习资料清单
 收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为六个部分：
 
-##目录
+# 目录
 * 第一部分：__地理信息科学__，讨论地理信息科学的内容；
 * 第二部分：__地理计算__，有关GDAL/OGR等的资料；
 * 第三部分：__并行计算__，为高性能计算部分，有关并行、并发、MPI等资料；
@@ -13,21 +13,21 @@
 
 ---
 
-## 第一部分 地理信息科学
-### 地理信息科学框架
+# 第一部分 地理信息科学
+## 地理信息科学框架
 
 ![框架](docs/frame.jpg)
 
 源文件[visio格式](docs/frame.vsdx)
 
-### 地理信息科学的主要研究方面
-###李老师的GIS三界理论
+## 地理信息科学的主要研究方面
+### 李老师的GIS三界理论
 
 * 第一界：GIS的理论研究
 * 第二界：GIS的技术开发
 * 第三界：GIS的应用实践
 
-### 地理信息科学的核心重要问题
+## 地理信息科学的核心重要问题
 
 * 定性
 * 定量
@@ -35,7 +35,7 @@
 * 定期（时序分析）
 * 定时（典型调查与总体特征分析）
 
-### 地理信息科学的终级问答
+## 地理信息科学的终级问答
 
 人类依靠地理能怎样认识地球？
 
@@ -43,20 +43,20 @@
 ----
 
 
-## 第二部分 地理计算
+# 第二部分 地理计算
 
-### 脚本绑定gdal
+## 脚本绑定gdal
 * python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932)
 * [ruby-gdal](https://github.com/zhm/gdal-ruby)
 * lua-gdal,Null
 * [node.js-gdal](https://github.com/naturalatlas/node-gdal)
 * [go-gdal](https://github.com/lukeroth/gdal)
 
-### 文档资料
+## 文档资料
 * [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
 * [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
 
-### 开源地理服务
+## 开源地理服务
 * [mapserver](http://lab.osgeo.cn/mapserver_tutorial/index.html)
 * [geocloud2](http://www.mapcentia.com/en/geocloud/),A complete platform for managing geospatial data, making map visualisations and creating applications. Built on the best open source and standard based software.
 * [opengoe-suite](http://boundlessgeo.com/solutions/opengeo-suite/), Build great maps and apps with the geospatial power of our standards-based platform.
@@ -72,33 +72,33 @@
 ----
 
 
-## 第三部分 并行计算
+# 第三部分 并行计算
 包括一些有关并行的程序库和文档资料。
 
-### 我的关于并行计算三个设定
+## 我的关于并行计算三个设定
 
 * 第一条：并行算法只能在并行计算机上运行
 * 第二条：并行算法处理的数据，串行算法没有办法处理
 * 第三条：并行算法不一定比串行算法快
 
 
-### 程序语言讨论
+## 程序语言讨论
 ![程序语言](docs/programlanguage.jpg)
 这是我的判断图。
 源文件[visio格式](docs/programlanguage.vsdx)
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
-#### 注意
+### 注意
 * Cobra 语言设计很有意思将测试和契约设计思想融入语言的设计中，值得学习。
 
-### 程序语言设计库
+## 程序语言设计库
 如何设计一门自已的程序语言，有以下库可以帮助你：
 
 * [antlr](http://www.antlr.org/)
 * [Nitra](https://github.com/JetBrains/Nitra)
 
-### 参考设计语言
+## 参考设计语言
 
 * [nonelang](https://bitbucket.org/duangle/nonelang/src)
 * [fakescript](https://bitbucket.org/esrrhs/fakescript)
@@ -110,14 +110,14 @@
 * [fantom](http://fantom.org/)
 * [gosu-lang](https://github.com/gosu-lang/gosu-lang)
 
-### 理想中的语言
+## 理想中的语言
 我自己的语言正在设计中，参见[YAPL](https://github.com/htoooth/YAPL/)。
 
-### 软件开发过程管理
+## 软件开发过程管理
 
 [快速构建一致的开发环境](http://yunlzheng.github.io/2014/10/08/build-local-develop-env/)
 
-### 并行类库
+## 并行类库
 * [ltsmin](libraries/ltsmin/src).中有一个有关[mpi的事件机制的循环](libraries/ltsmin/src/mpi-event-loop.c).可以学习。
 * [casablance](http://casablanca.codeplex.com/).该库中有一个线程实现库叫`pplx`，跨平台实现，可以参考API的设计
 * [Ray](https://github.com/sebhtml/RayPlatform).mpi为基础的并行计算库
@@ -155,7 +155,7 @@
 * [dask](https://github.com/blaze/dask)，Dask provides multi-core execution on larger-than-memory datasets using blocked algorithms and task scheduling.
 
 
-### 工具类库
+## 工具类库
 * 序列化
   * [nanomsg](https://github.com/nanomsg)，消息类库
   * [Bond](https://github.com/Microsoft/bond/),微软出品
@@ -180,7 +180,7 @@
   * [Concurrent Data Structures ](http://libcds.sourceforge.net/)
 * 还有很多关于facebook和google开源的项目都可以学习
 
-### 关于并发的文章
+## 关于并发的文章
 * [mpi doc](http://mpi.deino.net/mpi_functions/index.htm)，这里面有对每一个mpi函数示例，非常详细。
 * [mpi相关练习](https://computing.llnl.gov/tutorials/mpi/exercise.html)
 * [The Auto Macro: A Clean Approach to C++ Error Handling](http://blog.memsql.com/c-error-handling-with-auto/)
@@ -210,7 +210,7 @@ java akka的actor学习
 * [CMake 入门实战](http://hahack.com/codes/cmake/)
 * [Principles of Distributed Computing](http://dcg.ethz.ch/lectures/podc_allstars/)
 
-### c++中关于线程的学习
+## c++中关于线程的学习
 * [知识点](http://www.360doc.com/userhome.aspx?userid=1317564&cid=437)
 * [boost-thread(1,2,3,4)](http://amornio.iteye.com/category/226385)
 * [C++并发实战(C++11),	Linux多线程编程C++,网络编程](http://blog.csdn.net/liuxuejiang158/article/category/1774739/2)
@@ -226,21 +226,21 @@ java akka的actor学习
 * [第34课 - 信号量](http://tjumyk.github.io/sdl-tutorial-cn/lessons/lesson34/index.html)
 * [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
 
-### C++构建工具的选择
+## C++构建工具的选择
 * [premake](http://industriousone.com/premake)
 * [scons](http://www.scons.org/)
 * [gyp](https://github.com/htoooth/gyp)
 * [cmake](http://www.cmake.org/)
 
-### 脚本绑定mpi
+## 脚本绑定mpi
 * [ruby-mpi](https://github.com/seiya/ruby-mpi)
 * [pybhon-mpi](http://mpi4py.scipy.org/)
 * [lua-mpi](https://github.com/jzrake/lua-mpi)
 * js-mpi , Null
 * [go-mpi](https://github.com/JohannWeging/go-mpi)
 
-### MPI相关问题汇总
-#### MPI与Hadoop的区别和联系
+## MPI相关问题汇总
+### MPI与Hadoop的区别和联系
 并行计算的代表性技术是MPI，云计算的代表性技术是Hadoop。云计算的基础是并行计算，是并行计算和网络结合而发展起来的。MPI和Hadoop代表了不同背影开发者和学术的不同观点。所以MPI和Hadoop有很大的关系，既有共同点也有很多不同之处。
 
 两者的相同点如下：
@@ -258,7 +258,7 @@ java akka的actor学习
 
 注：以上的内容摘自[基于MPI和MapReduce的分布并行计算研究](http://wenku.baidu.com/view/f9c29bd0360cba1aa811dabc.html?pn=50)，第24页
 
-#### MPI的问题
+### MPI的问题
 
 具体的说，MPI允许进程之间在任何时刻互相通信。如果一个进程挂了，我们确实可以请分布式操作系统重启之。但是如果要让这个“新生”获取它“前世”的状态，我们就需要让它从初始状态开始执行，接收到其前世曾经收到的所有消息。这就要求所有给“前世”发过消息的进程都被重启。而这些进程都需要接收到他们的“前世”接收到过的所有消息。这种数据依赖的结果就是：所有进程都得重启，那么这个job就得重头做。
 
@@ -268,7 +268,7 @@ java akka的actor学习
 
 注：这段内容摘自[大数据的首要目标是“大”而不是“快”](http://cxwangyi.github.io/story/01_plsa_and_mpi.md.html)
 
-#### 参考链接：
+### 参考链接：
 * [What are some scenarios for which MPI is a better fit than MapReduce?](http://stackoverflow.com/questions/1530490/what-are-some-scenarios-for-which-mpi-is-a-better-fit-than-mapreduce)
 * [分布式计算概述](http://www.cnblogs.com/LeftNotEasy/archive/2010/11/27/1889598.html)
 * [Hadoop 与 MPI 的特性](http://geron.herokuapp.com/blog/2012/03/hadoop-and-mpi)
@@ -280,7 +280,7 @@ java akka的actor学习
 ----
 
 
-## 第四部分 高性能地理计算
+# 第四部分 高性能地理计算
 目前高性能地理计算资料较少，[在这里有一些mpi与gdal结合的程序](https://github.com/htoooth/mpi_resources/tree/master/libraries/hpgc_11)。
 
 看看国外做了哪些东西：
@@ -289,18 +289,18 @@ java akka的actor学习
 
 ----
 
-## 第五部分 业界最新发展方向
-### 业界最新的计算框架
+# 第五部分 业界最新发展方向
+## 业界最新的计算框架
 
 * [Spark](https://github.com/apache/spark)
 * [Storm](https://github.com/apache/storm)
 * [Samza](http://samza.apache.org/)
 
-### 关注地理大数据的组织
+## 关注地理大数据的组织
 
 * [locationtech](https://www.locationtech.org/),观注地理信息的存储、计算和表达的项目。
 
-### 在线工具
+## 在线工具
 * [nitrous](https://www.nitrous.io/)
 * [cloud9](https://c9.io/)
 * [koding](https://koding.com/)
@@ -310,9 +310,9 @@ java akka的actor学习
 ----
 
 
-## 第六部分 云计算和大数据
+# 第六部分 云计算和大数据
 
-### 运维工具
+## 运维工具
 
 * [Func](https://fedorahosted.org/func/),python
 * [Fabric](http://www.fabfile.org/),python
@@ -326,11 +326,11 @@ java akka的actor学习
 * [gearman](http://gearman.org/)
 * [rabbitmq](http://www.rabbitmq.com/)
 
-### 自动化脚本
+## 自动化脚本
 * AHK
-* [sikuli](http://www.sikuli.org/)，Sikuli automates anything you see on the screen. It uses image recognition to identify and control GUI components. It is useful when there is no easy access to a GUI's internal or source code.
+* [sikuli](http://www.sikuli.org/)，Sikuli automates anything you see on the screen. It uses image recognition to identify and control GUI components. It is useful when there is no easy access to a GUI internal or source code.
 
-### Rake 使用
+## Rake 使用
 * [ rake任务从命令行传递参数的两种方式](http://my.oschina.net/fxhover/blog/326766)
 * [Rake Quick Reference](https://sites.google.com/site/spontaneousderivation/rake-quick-reference#TOC-Dependencies-Pre-requisites)
 * [Rake: Automate All the Things](http://www.sitepoint.com/rake-automate-things/)
@@ -338,37 +338,37 @@ java akka的actor学习
 * [Using Rake to Automate Tasks](http://www.stuartellis.eu/articles/rake/)
 
 
-### 机器学习
-#### 搜索
+## 机器学习
+### 搜索
 
-#### 推荐
+### 推荐
 
-#### 挖掘
+### 挖掘
 
 
 ----
 
-## 第七部分 当前实验进展
+# 第七部分 当前实验进展
 
-### 框架设想
+## 框架设想
 MPI是高效的，基础的。
 
-### 任务安排
+## 任务安排
 
-#### 第一步，构建消息库
+### 第一步，构建消息库
 * 构建一个可靠的消息队列库
 * 利用消息队列库，实现多进程的合作
 
-#### 第二步，设计同步模式
+### 第二步，设计同步模式
 * 基于scala的actor
 * 基结go的channel
 * 基于react的，也就是基于事件
 * geaman队列系统
 
-#### 第三步，嵌入脚本语言
+### 第三步，嵌入脚本语言
 * 嵌入脚本，融合python，ruby，lua或者newlisp。
 
-### 打算要做的事
+## 打算要做的事
 * 将gdal中[port](https://github.com/OSGeo/gdal/tree/trunk/gdal/port)库提出来，专门做一个工具库类库。
 * 将[readme.md](https://github.com/htoooth/libpcm)写完
 * 将[mpi-rpc](https://github.com/htoooth/hpgc_new/blob/master/src/rpc.cpp)再拿出来研究
