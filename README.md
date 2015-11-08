@@ -16,17 +16,18 @@
 ## 第一部分 地理信息科学
 ### 地理信息科学框架
 
-![框架](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.jpg)
+![框架](docs/frame.jpg)
 
-源文件[visio格式](https://github.com/htoooth/mpi_resources/blob/master/docs/%E6%A1%86%E6%9E%B6.vsdx)
+源文件[visio格式](docs/frame.vsdx)
 
-### 李老师的GIS三界理论
+### 地理信息科学的主要研究方面
+###李老师的GIS三界理论
 
 * 第一界：GIS的理论研究
 * 第二界：GIS的技术开发
 * 第三界：GIS的应用实践
 
-### 核心重要问题
+### 地理信息科学的核心重要问题
 
 * 定性
 * 定量
@@ -34,7 +35,9 @@
 * 定期（时序分析）
 * 定时（典型调查与总体特征分析）
 
-### 人类依靠地理能怎样认识地球？
+### 地理信息科学的终级问答
+
+人类依靠地理能怎样认识地球？
 
 
 ----
@@ -80,9 +83,9 @@
 
 
 ### 程序语言讨论
-![程序语言](docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.jpg)
+![程序语言](docs/programlanguage.jpg)
 这是我的判断图。
-源文件[visio格式](docs/%E8%AF%AD%E8%A8%80%E5%88%A4%E6%96%AD.vsdx)
+源文件[visio格式](docs/programlanguage.vsdx)
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
