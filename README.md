@@ -16,9 +16,9 @@
 # 第一部分 地理信息科学总论
 ## 1 地理信息科学框架
 
-![框架](docs/frame.jpg)
+![框架](image/frame.jpg)
 
-源文件[visio格式](docs/frame.vsdx)
+源文件[visio格式](image/frame.vsdx)
 
 ## 2 地理信息科学的主要研究方面
 ### 李老师的GIS三界理论
@@ -90,9 +90,9 @@
 
 
 ## 2 程序语言讨论
-![程序语言](docs/programlanguage.jpg)
+![程序语言](image/programlanguage.jpg)
 这是我的判断图。
-源文件[visio格式](docs/programlanguage.vsdx)
+源文件[visio格式](image/programlanguage.vsdx)
 
 当前最新的计算机语言，几乎都把并发当成语言内置的支持，这对并行计算影响很大。
 
@@ -356,6 +356,10 @@ java akka的actor学习
 ### 推荐
 
 ### 挖掘
+
+### 深度学习
+
+* [multiverso](https://github.com/Microsoft/multiverso),微软的学习框架，使用 MPI 和 ZeroMQ 进行编写。
 
 
 ----
