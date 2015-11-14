@@ -233,11 +233,17 @@ java akka的actor学习
 * [第34课 - 信号量](http://tjumyk.github.io/sdl-tutorial-cn/lessons/lesson34/index.html)
 * [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
 
-## 11 C++构建工具的选择
+## 11 构建工具的选择
 * [premake](http://industriousone.com/premake)
 * [scons](http://www.scons.org/)
 * [gyp](https://github.com/htoooth/gyp)
 * [cmake](http://www.cmake.org/)
+* [biicode](https://github.com/biicode/biicode)
+* [meson](https://github.com/mesonbuild/meson)
+* [FAKE](http://fsharp.github.io/FAKE)
+* [cake](https://github.com/cake-build/cake)
+* [jakejs](http://jakejs.com/)
+* [invoke](https://github.com/pyinvoke/invoke)
 
 ## 12 脚本绑定mpi
 * [ruby-mpi](https://github.com/seiya/ruby-mpi)
