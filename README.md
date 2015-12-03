@@ -236,16 +236,18 @@ java akka的actor学习
 * [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html)
 
 ## 11 构建工具的选择
-* [premake](http://industriousone.com/premake)
-* [scons](http://www.scons.org/)
-* [gyp](https://github.com/htoooth/gyp)
+* [premake](https://github.com/premake)
 * [cmake](http://www.cmake.org/)
+* [gyp](https://github.com/htoooth/gyp)
 * [biicode](https://github.com/biicode/biicode)
+* [conan](https://github.com/conan-io/conan)
 * [meson](https://github.com/mesonbuild/meson)
-* [FAKE](http://fsharp.github.io/FAKE)
+* [fake](http://fsharp.github.io/FAKE)
 * [cake](https://github.com/cake-build/cake)
 * [jakejs](http://jakejs.com/)
 * [invoke](https://github.com/pyinvoke/invoke)
+* [gradle](https://gradle.org/)，也可以构建c/c++程序
+* [scons](http://www.scons.org/)
 
 ## 12 脚本绑定mpi
 * [ruby-mpi](https://github.com/seiya/ruby-mpi)
