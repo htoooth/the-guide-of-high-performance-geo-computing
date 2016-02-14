@@ -3,8 +3,8 @@
 by [htoooth](https://github.com/htoooth)
 
 ## 阅读地址
-* [高性能地理计算理论与实践指引](http://htoooth.gitbooks.io/rxdocs/content/)
-* [PDF/ePub/Mobi格式下载](https://www.gitbook.com/book/htoooth/rxdocs/details)
+* [高性能地理计算理论与实践指引](https://htoooth.gitbooks.io/hpgcessentials/content/)
+* [PDF/ePub/Mobi格式下载](https://www.gitbook.com/book/htoooth/hpgcessentials/details)
 
 ## 说明
 收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为六个部分：
@@ -34,4 +34,4 @@ by [htoooth](https://github.com/htoooth)
 ## 联系方式
 
 * Github: <https://github.com/htoooth>
-* Email: [htoooth](mailto:ht.anglenx@#google.com)
+* Email: [htoooth](mailto:ht.anglenx#google.com)
