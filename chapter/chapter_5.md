@@ -1,0 +1,17 @@
+# 第五部分 业界最新发展方向
+## 1 业界最新的计算框架
+
+* [Spark](https://github.com/apache/spark)
+* [Storm](https://github.com/apache/storm)
+* [Samza](http://samza.apache.org/)
+
+## 2 关注地理大数据的组织
+
+* [locationtech](https://www.locationtech.org/),观注地理信息的存储、计算和表达的项目。
+
+## 3 在线工具
+* [nitrous](https://www.nitrous.io/)
+* [cloud9](https://c9.io/)
+* [koding](https://koding.com/)
+* [ideone](http://ideone.com/)
+* [codebox](https://www.codebox.io/)

@@ -1,0 +1,32 @@
+# 第二部分 地理计算
+
+## 1 什么是地理计算
+
+## 2 脚本绑定gdal
+* python-gdal，GDAL中自带，这里是[文档](http://blog.csdn.net/sunny2038/article/details/8018965),[1](https://pypi.python.org/pypi/GDAL/),[2](http://blog.csdn.net/sunny2038/article/details/8000932)
+* [ruby-gdal](https://github.com/zhm/gdal-ruby)
+* lua-gdal,Null
+* [node.js-gdal](https://github.com/naturalatlas/node-gdal)
+* [go-gdal](https://github.com/lukeroth/gdal)
+
+## 3 文档资料
+* [python_gdal接口文档](http://pcjericks.github.io/py-gdalogr-cookbook/index.html)
+* [学习python_gdal的教程](http://www.gis.usu.edu/~chrisg/python/2009/)
+
+## 4 开源地理服务
+* [mapserver](http://lab.osgeo.cn/mapserver_tutorial/index.html)
+* [geocloud2](http://www.mapcentia.com/en/geocloud/),A complete platform for managing geospatial data, making map visualisations and creating applications. Built on the best open source and standard based software.
+* [opengoe-suite](http://boundlessgeo.com/solutions/opengeo-suite/), Build great maps and apps with the geospatial power of our standards-based platform.
+* [geoserver](http://geoserver.org/),is an open source software server written in Java that allows users to share and edit geospatial data. 
+* [geomoose](http://www.geomoose.org/),is a Web Client JavaScript Framework for displaying distributed cartographic data that built upon other open source projects MapServer,OpenLayers and Dojo Toolkit.
+* [geonode](http://geonode.org/). Open Source Geospatial Content Management System.
+* [mapzen](https://mapzen.com/)，一系列开源库，帮助你构建自己的地图系统。
+* [mapbox](https://www.mapbox.com/)，新一代的地图工具。
+* [cartodb](http://cartodb.com/)
+* [openlayers](http://openlayers.org/)
+* [leaflet](http://leafletjs.com/)
+
+## 5 地理计算脚本
+
+* [geoscript](https://github.com/geoscript)
+* java多平台语言：[Ratpack](http://www.ratpack.io/),[Vert.x](http://vertx.io/)
