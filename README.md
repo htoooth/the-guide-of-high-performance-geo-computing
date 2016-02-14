@@ -7,13 +7,12 @@ by [htoooth](https://github.com/htoooth)
 * [PDF/ePub/Mobi格式下载](https://www.gitbook.com/book/htoooth/hpgcessentials/details)
 
 ## 说明
-收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。资料分为六个部分：
+收集有关并行计算，并发设计和地理计算的相关资料进行汇总，方便自己学习查看。
 
 ## 版本历史
 * 0.0.1 2016.02.14 使用`gitbook`进行项目管理。
 
-
-# 目录
+## 目录
 
 * [地理信息科学总论](chapter/1.md) - 讨论地理信息科学的内容 
 * [地理计算](chapter/1.md) - 有关GDAL/OGR等的资料 
