@@ -1,4 +1,4 @@
-# 高性能地理计算理论与实践指引
+# 高性能地理计算笔记
 
 by [htoooth](https://github.com/htoooth)
 
